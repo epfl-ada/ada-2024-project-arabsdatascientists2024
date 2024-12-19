@@ -53,8 +53,8 @@ section {
   margin-left: auto; /* Centers the section horizontally */
   margin-right: auto; /* Centers the section horizontally */
   max-width: 800px; /* Limits width for readability */
-  text-align: center; /* Centers the text inside the section */
-  color: #595959; /* Keeps the original text color */
+  text-align: justify; /* Centers the text inside the section */
+  color: #222; /* Keeps the original text color */
 }
 
 /* Downloads Section Styling */
