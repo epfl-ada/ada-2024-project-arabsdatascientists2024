@@ -10,14 +10,14 @@ header {
   position: sticky; /* Makes the header sticky */
   top: 0; /* Ensures it stays at the top of the page */
   z-index: 1000; /* Keeps it above other elements */
-  color: #f8f4eb; /* Keeps text readable on the image */
+  color: #222; /* Keeps text readable on the image */
 }
 
 
 header h1 {
   font-size: 32px;
   font-weight: bold;
-  color: #f8f4eb;
+  color: #222;
   margin: 0;
 }
 
