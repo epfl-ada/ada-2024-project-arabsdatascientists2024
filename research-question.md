@@ -1,6 +1,9 @@
 ---
 layout: default
+title: Research Question
+permalink: /research-question/
 ---
 
-# Add info question
+# Research Question
 
+Describe your research question here.
