@@ -1,5 +1,5 @@
 /* Header and Navigation Styles */
-header {
+/*header {
   background-image: url('https://via.placeholder.com/1920x300'); /* Path to your background image */
   background-size: cover; /* Ensures the image covers the entire header */
   background-position: center; /* Centers the image */
@@ -11,8 +11,15 @@ header {
   top: 0; /* Ensures it stays at the top of the page */
   z-index: 1000; /* Keeps it above other elements */
   color: #222; /* Keeps text readable on the image */
-}
+}*/
 
+header {
+  background-image: url('assets/img/movie.jpg'); /* Relative path to your image */
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 300px; /* Sets a height for the header */
+}
 
 header h1 {
   font-size: 32px;
