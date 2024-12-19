@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Unveiling the Hidden Factors Behind an Actor's Success
-description: A template website for ADA's project on the CMU Movie Corpus dataset
+% description: A template website for ADA's project on the CMU Movie Corpus dataset
 show_downloads: True
 
 navigation:
