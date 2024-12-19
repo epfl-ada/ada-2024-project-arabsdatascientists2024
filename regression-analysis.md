@@ -1,7 +1,7 @@
 ---
-layout: default
-title: Research Question
-permalink: /regression-analysis/
+layout: section
+id: regression-analysis
+title: Regression Analysis
 ---
 
 # Regression
