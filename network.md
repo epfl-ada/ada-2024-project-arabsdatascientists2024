@@ -1,4 +1,5 @@
 ---
 layout: default
+title: Research Question
+permalink: /network/
 ---
-# Add info networks
