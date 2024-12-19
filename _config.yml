@@ -4,8 +4,6 @@ description: by ArabsDataScientists
 show_downloads: True
 
 navigation:
-  - title: Home
-    url: "#home"
   - title: Research Question
     url: "#research-question"
   - title: Regression Analysis
