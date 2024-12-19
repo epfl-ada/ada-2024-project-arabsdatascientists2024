@@ -7,10 +7,10 @@ navigation:
   - title: Home
     url: /
   - title: Research Question
-    url: /research-question
+    url: /research-question.md
   - title: Regression Analysis
-    url: /regression-analysis
+    url: /regression-analysis.md
   - title: Clustering
-    url: /clustering
+    url: /clustering.md
   - title: Network
-    url: /network
+    url: /network.md
