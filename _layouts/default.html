@@ -14,6 +14,48 @@
       html {
         scroll-behavior: smooth;
       }
+
+      /* Sticky Header */
+      .sticky-header {
+        position: sticky;
+        top: 0; /* Stays at the top */
+        z-index: 1000; /* Ensures it stays above other elements */
+        background-color: #de0f3f; /* Matches header background */
+        padding: 10px 20px;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+      }
+
+      /* Navigation Links */
+      .sticky-header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .sticky-header ul li {
+        display: inline;
+      }
+
+      .sticky-header ul li a {
+        font-family: 'Lora', 'Times New Roman', serif;
+        font-size: 16px;
+        color: #222;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .sticky-header ul li a:hover {
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -22,7 +64,8 @@
       <header>
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
-        <nav>
+        <!-- Sticky Navigation -->
+        <nav class="sticky-header">
           <ul>
             <li><a href="#research-question">Research Question</a></li>
             <li><a href="#regression-analysis">Regression Analysis</a></li>
