@@ -4,14 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+    <title>{{ site.title }}</title>
 
-    <!-- Include custom styles and Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
 
-    <!-- Enable smooth scrolling -->
     <style>
       html {
         scroll-behavior: smooth;
@@ -24,8 +22,6 @@
       <header>
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
-
-        <!-- Navigation Bar -->
         <nav>
           <ul>
             <li><a href="#research-question">Research Question</a></li>
@@ -36,26 +32,16 @@
         </nav>
       </header>
 
-      <!-- Main Sections -->
-      <section id="research-question">
-        <h2>Research Question</h2>
-        <p>Details about the research question go here. This is the analysis of how actors' success factors are explored.</p>
-      </section>
-
-      <section id="regression-analysis">
-        <h2>Regression Analysis</h2>
-        <p>Details about regression analysis go here. We examine trends and correlations to uncover insights.</p>
-      </section>
-
-      <section id="clustering">
-        <h2>Clustering</h2>
-        <p>Details about clustering go here. Groups and patterns in the dataset are revealed using clustering techniques.</p>
-      </section>
-
-      <section id="network">
-        <h2>Network</h2>
-        <p>Details about the network analysis go here. This section explores the relationships between actors and their success metrics.</p>
-      </section>
+      <!-- Dynamically Render Sections -->
+      <main>
+        {% assign sections = site.pages | where: "layout", "section" %}
+        {% for section in sections %}
+          <section id="{{ section.id }}">
+            <h2>{{ section.title }}</h2>
+            {{ section.content }}
+          </section>
+        {% endfor %}
+      </main>
 
       <!-- Footer -->
       <footer>
@@ -64,4 +50,3 @@
     </div>
   </body>
 </html>
-
