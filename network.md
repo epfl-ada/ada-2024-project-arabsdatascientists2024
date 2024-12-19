@@ -5,4 +5,4 @@ title: Network
 order: 4
 ---
 
-![test](assets/img/network.jpg)
+![test](assets/img/network.png)
