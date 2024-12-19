@@ -3,7 +3,6 @@ header {
   background-color : #fff
   background-repeat: no-repeat; /* Prevents tiling */
   padding: 20px;
-  border-bottom: 1px solid #ddd;
   text-align: center;
   position: sticky; /* Makes the header sticky */
   top: 0; /* Ensures it stays at the top of the page */
