@@ -5,12 +5,12 @@ show_downloads: True
 
 navigation:
   - title: Home
-    url: /
+    url: "#home"
   - title: Research Question
-    url: /research-question/
+    url: "#research-question"
   - title: Regression Analysis
-    url: /regression-analysis/
+    url: "#regression-analysis"
   - title: Clustering
-    url: /clustering/
+    url: "#clustering"
   - title: Network
-    url: /network/
+    url: "#network"
