@@ -2,6 +2,7 @@
 layout: section
 id: regression-analysis
 title: Regression Analysis
+order: 2
 ---
 
 # Regression
