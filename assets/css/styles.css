@@ -94,6 +94,11 @@ footer {
   color: #777;
 }
 
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Responsive Navigation */
 @media print, screen and (max-width: 960px) {
   nav ul {
