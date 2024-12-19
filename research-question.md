@@ -2,6 +2,7 @@
 layout: section
 id: research-question
 title: Research Question
+order: 1
 ---
 
 Have you ever sat on your couch, hand in the popcorn, watching the oscars and wondering “what do they have that I don’t?”. 
