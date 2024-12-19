@@ -5,4 +5,4 @@ title: Network
 order: 4
 ---
 
-Details about the network analysis go here. This section explores the relationships between actors and their success metrics.
+![test](assets/img/network.jpg)
