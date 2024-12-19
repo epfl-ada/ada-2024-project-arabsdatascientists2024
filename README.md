@@ -1,2 +1,0 @@
-# ADA Template Website
-

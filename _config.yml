@@ -1,7 +1,0 @@
-theme: jekyll-theme-minimal
-title: Arabs Data Scientists Project
-description: Website for the ADA Project of the Arabs Data Scientists Team
-show_downloads: False
-navigation:
-  - title: Home
-    url: /
