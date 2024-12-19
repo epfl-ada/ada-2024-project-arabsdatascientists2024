@@ -1,160 +1,114 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Header and Navigation Styles */
+header {
+  background-color: #f8f9fa; /* Original light gray background */
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
 }
 
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #e7e9ec;
-    margin: 0;
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
 }
 
-/* Header Section */
-header#home {
-    background: url('hero_image.jpg') no-repeat center center/cover;
-    height: 100vh;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-}
-
-header#home h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-}
-
-header#home p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
-}
-
-header#home .button {
-    background-color: #ff6f61;
-    color: white;
-    padding: 15px 30px;
-    font-size: 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-header#home .button:hover {
-    background-color: #ff3f3f;
-}
-
-/* Navigation */
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+header p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0 20px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 nav ul li {
-    margin: 0 15px;
+  display: inline;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  font-size: 16px;
+  color: #222;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff6f61;
+  background-color: #007bff;
+  color: #fff;
 }
 
-/* Section Styles */
+/* Section Content Spacing */
 section {
-    padding: 100px 20px;
-    text-align: center;
+  margin-top: 30px; /* Adds space between header and content */
+  margin-left: auto; /* Centers the section horizontally */
+  margin-right: auto; /* Centers the section horizontally */
+  max-width: 800px; /* Limits width for readability */
+  text-align: center; /* Centers the text inside the section */
+  color: #595959; /* Keeps the original text color */
 }
 
-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #333;
+/* Downloads Section Styling */
+header ul.downloads {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the links */
+  gap: 10px;
 }
 
-section p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: #555;
+header ul.downloads li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #555; /* Makes the link color consistent */
+  padding: 5px 10px;
+  border: 1px solid #ddd; /* Adds a subtle border */
+  border-radius: 3px;
+  background-color: #f8f9fa; /* Matches header background */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Background Styles for Sections */
-#intro {
-    background: #ffefef;
-}
-
-#methodology {
-    background: #eef9ff;
-}
-
-#questions {
-    background: #eaf7ea;
-}
-
-#results {
-    background: #fff4e5;
-}
-
-/* Button Styles for Links */
-section a.button {
-    display: inline-block;
-    margin-top: 20px;
-    background-color: #ff6f61;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-section a.button:hover {
-    background-color: #ff3f3f;
+header ul.downloads li a:hover {
+  background-color: #007bff; /* Blue hover effect */
+  color: #fff; /* White text on hover */
+  text-decoration: none;
 }
 
 /* Footer */
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #777;
 }
 
-footer p {
-    font-size: 0.9rem;
+/* Responsive Navigation */
+@media print, screen and (max-width: 960px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-footer a {
-    color: #ff6f61;
-    text-decoration: none;
-    font-weight: bold;
-}
+@media print, screen and (max-width: 720px) {
+  body {
+    padding: 15px;
+  }
 
-footer a:hover {
-    color: #ff3f3f;
+  header ul {
+    width: 100%;
+  }
 }
 
