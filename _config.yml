@@ -1,7 +1,16 @@
 theme: jekyll-theme-minimal
-title: Arabs Data Scientists Project
-description: Website for the ADA Project of the Arabs Data Scientists Team
-show_downloads: False
+title: Unveiling the Hidden Factors Behind an Actor's Success
+description: A template website for ADA's project on the CMU Movie Corpus dataset
+show_downloads: True
+
 navigation:
   - title: Home
     url: /
+  - title: Research Question
+    url: /research-question
+  - title: Regression Analysis
+    url: /regression-analysis
+  - title: Clustering
+    url: /clustering
+  - title: Network
+    url: /network
