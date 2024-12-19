@@ -1,6 +1,6 @@
 /* Header and Navigation Styles */
 header {
-  background-image: url('assets/img/download.png'); /* Path to your background image */
+  background-image: url('https://via.placeholder.com/1920x300'); /* Path to your background image */
   background-size: cover; /* Ensures the image covers the entire header */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents tiling */
