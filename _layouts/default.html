@@ -34,7 +34,7 @@
 
       <!-- Dynamically Render Sections -->
       <main>
-        {% assign sections = site.pages | where: "layout", "section" %}
+        {% assign sections = site.pages | where: "layout", "section" | sort: "order" %}
         {% for section in sections %}
           <section id="{{ section.id }}">
             <h2>{{ section.title }}</h2>
