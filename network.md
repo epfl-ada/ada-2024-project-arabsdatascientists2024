@@ -5,4 +5,4 @@ title: Network
 order: 4
 ---
 
-<img src="assets/img/network.png" alt="Network Analysis" width="500" height="300">
+<img src="assets/img/network.png" alt="Network Analysis" width="500">
