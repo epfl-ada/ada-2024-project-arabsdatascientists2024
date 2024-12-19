@@ -1,5 +1,5 @@
 ---
 layout: default
+title: Research Question
+permalink: /clustering/
 ---
-# Add info for clustering
-
