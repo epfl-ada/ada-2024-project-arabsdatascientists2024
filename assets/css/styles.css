@@ -1,7 +1,6 @@
 /* Header and Navigation Styles */
-/*header {
-  background-image: url('https://via.placeholder.com/1920x300'); /* Path to your background image */
-  background-size: cover; /* Ensures the image covers the entire header */
+header {
+  background-color : #fff
   background-repeat: no-repeat; /* Prevents tiling */
   padding: 20px;
   border-bottom: 1px solid #ddd;
@@ -10,30 +9,18 @@
   top: 0; /* Ensures it stays at the top of the page */
   z-index: 1000; /* Keeps it above other elements */
   color: #222; /* Keeps text readable on the image */
-}*/
-
-header {
-  background-image: url('assets/img/movie.jpg'); /* Relative path to your image */
-  background-size: cover; /* Ensures the image covers the entire header */
-  /*background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents tiling */
-  height: 300px; /* Sets a height for the header */
-  text-align: center;
-  position: sticky; /* Makes the header sticky */
 }
 
 header h1 {
   font-size: 32px;
   font-weight: bold;
   color: #222;
-  text-align: center
   margin: 0;
 }
 
 header p {
   font-size: 16px;
   color: #222;
-  text-align: center
   margin: 5px 0 20px;
 }
 
