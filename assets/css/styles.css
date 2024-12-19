@@ -4,6 +4,9 @@ header {
   padding: 20px;
   border-bottom: 1px solid #ddd;
   text-align: center;
+  position: sticky; /* Makes the header sticky */
+  top: 0; /* Ensures it stays at the top of the page */
+  z-index: 1000; /* Keeps it above other elements */
 }
 
 header h1 {
