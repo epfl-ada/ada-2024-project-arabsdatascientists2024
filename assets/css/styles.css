@@ -1,6 +1,6 @@
 /* Header and Navigation Styles */
 header {
-  background-image: url('assets/img/cinetest.jpeg'); /* Path to your background image */
+  background-image: url('assets/img/cinetest.jpg'); /* Path to your background image */
   background-size: cover; /* Ensures the image covers the entire header */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents tiling */
