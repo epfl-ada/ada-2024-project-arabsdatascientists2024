@@ -4,9 +4,6 @@ id: research-question
 title: Research Question
 ---
 
-Details about the research question go here. This section explains the primary goals and scope of the project.
-
-
 Have you ever sat on your couch, hand in the popcorn, watching the oscars and wondering “what do they have that I don’t?”. 
 Let’s face it, talent is great but in Hollywood it’s never the whole story. Is it Brad Pitt’s shiny hair? Jennifer Aniston’s timeless face? Or The Rock muscles’? 
 What if we told you that we’ve cracked the code to success?
