@@ -1,6 +1,6 @@
 Data empowers us to uncover hidden insights—imagine using it to create the next superstar!
 
-<img src="assets/img/bonhomme.png" alt="bonhomme">
+<img src="assets/img/bonhomme.png" alt="bonhomme" style="height: 100px;">
 
 Let us introduce you to Momo. Momo was unique—not because of any physical traits or personality, but because he had none. He was a blank canvas, indescribable and undefined.
 
