@@ -15,7 +15,7 @@ Also, the “I’m a hard working legend” or “party animal” look that give
 
 <style>
 .physique-graphlylia {
-  max-width: 20%; 
+  max-width: 50%; 
   height: auto;   
 }
 </style>
@@ -30,7 +30,7 @@ Pale skin and rosy cheeks is the ultimate clean skin vibe, so remember to pinch 
 
 <style>
 .physique-graphlylia2 {
-  max-width: 20%; 
+  max-width: 50%; 
   height: auto;   
 }
 </style>
@@ -43,7 +43,7 @@ Further analysis revealed another critical factor: height. The boxplot below hig
 
 <style>
 .physique-genderandheights {
-  max-width: 20%; 
+  max-width: 50%; 
   height: auto;   
 }
 </style>
@@ -68,7 +68,7 @@ We gained an additional insight: successful women tend to be taller than average
 
 <style>
 .physique-genderandheights {
-  max-width: 20%; 
+  max-width: 50%; 
   height: auto;   
 }
 </style>

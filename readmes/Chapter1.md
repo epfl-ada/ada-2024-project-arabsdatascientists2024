@@ -26,7 +26,7 @@ Using ratings as our guide, we used PCA to analyze the underlying structure of m
 
 <style>
 .intro-countries {
-  max-width: 50%; 
+  max-width: 10%; 
   height: auto;   
 }
 </style>
