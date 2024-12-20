@@ -124,6 +124,7 @@ body {
 /* ======================    INTRODUCTION    ====================== */
 
 .intro-bonhomme{
+  text-align: center;
   width: 10rem;
 }
 
