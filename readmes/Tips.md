@@ -27,9 +27,11 @@ Last but not least… ROMANCE, our personal favorite. Let’s not forget that �
 </style>
 <br><br>
 
-"Astra," we began, "in the world of acting, talent alone is rarely enough. Connections—powerful, strategic, and meaningful—can amplify your success. Let us guide you through a map of collaborations, where legends are forged."
+"Astra," we began, "in the world of acting, talent alone is rarely enough. Connections—powerful, strategic, and meaningful—can amplify your success. Let us guide you through a map of collaborations, where legends are forged."<br><br>
 
-We dived into the data, focusing on the top actors. From there, we built a vibrant collaboration network. Every node was an actor, every edge a shared movie, genre, or country. To find the essence, we zoomed into the largest cluster. We uncovered smaller groups of actors who worked together frequently. These clusters were the heartbeat of the network, and within them, the patterns of success.
+
+We dived into the data, focusing on the top actors. From there, we built a vibrant collaboration network. Every node was an actor, every edge a shared movie, genre, or country. To find the essence, we zoomed into the largest cluster. We uncovered smaller groups of actors who worked together frequently. These clusters were the heartbeat of the network, and within them, the patterns of success.<br><br>
+
 
 
 <div style="text-align: center;">
@@ -45,7 +47,7 @@ We dived into the data, focusing on the top actors. From there, we built a vibra
 <br><br>
 
 
-"Your path," we said with conviction, "lies with them, the most succesful and connected."  We calculated graph metrics like centrality and clustering coefficients, uncovering the actors who were not just participants but leaders of their communities. Among them were the top performers—those with scores greater than 7. We added, "Collaborate wisely, and let their influence sharpen your talent. Sadly, success isn’t just about being seen—it’s about being seen with the right people."
+"Your path," we said with conviction, "lies with them, the most succesful and connected."  We calculated graph metrics like centrality and clustering coefficients, uncovering the actors who were not just participants but leaders of their communities. Among them were the top performers—those with scores greater than 7. We added, "Collaborate wisely, and let their influence sharpen your talent. Sadly, success isn’t just about being seen—it’s about being seen with the right people."<br><br>
 
 <div style="text-align: center;">
   <img src="assets/media/interets.jpg" alt="interets" class="tips-interets">
