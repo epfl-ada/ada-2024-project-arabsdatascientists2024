@@ -55,6 +55,8 @@ Further analysis revealed another critical factor: height. The boxplot below hig
 </style>
 <br><br>
 
+We started by clustering our data according to all the features we have. Since our data is cathegorical, we used hot encoding in order to use K-means model which is more adapted in our case, and according to our data - that had levels for example for education or priviledge. 
+
 We gained an additional insight: successful women tend to be taller than average, while less successful men are shorter than average. In simpler terms, being tall for a man is almost a baseline requirement for success. It doesn't provide an extra advantage, but not meeting this baseline can be a disadvantage. This finding reflects deeply ingrained societal biases in how physical traits influence perceptions of leadership and prominence.<br><br>
 
 "Astra," we said after sharing these findings, "your journey highlights how deeply societal expectations are intertwined with success. You will embody the strength and charisma expected of male actors, but together, we aim to challenge these norms and create new standards for what it means to be successful”. <br><br>
