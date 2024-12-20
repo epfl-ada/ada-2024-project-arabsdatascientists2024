@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-/* TITLE */
+/* ====================== TITLE ====================== */
 .title-div {
   color: white;
   text-align: center;
@@ -28,7 +28,7 @@ body {
   letter-spacing: normal;
 }
 
-/* TOP BAR */
+/* ====================== TOP BAR ====================== */
 .top-bar {
   display: flex;
   width: 100%;
@@ -94,7 +94,7 @@ body {
 }
 
 
-/* SECTIONS*/
+/* ====================== SECTIONS ====================== */
 
 .section {
   padding: 8rem 20%;
@@ -106,3 +106,23 @@ body {
 .section:nth-child(even) {
   background-color: #e2e2e2;
 }
+
+/* ======================    INTRODUCTION    ====================== */
+
+.intro-bonhomme{
+  width: 10rem;
+}
+
+/* ====================== RESEARCH QUESTIONS  ====================== */
+
+
+
+/* ====================== REGRESSION ANALYSIS ====================== */
+
+
+
+/* ======================     CLUSTERING      ====================== */
+
+
+
+/* ======================       NETWORK       ====================== */
