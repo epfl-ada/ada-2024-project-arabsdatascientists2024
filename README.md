@@ -67,6 +67,7 @@ We will employ the methods we discovered in the course to analyze the datasets:
 * With CelebA : In an attempt to refine the model further, CelebA attributes (such as specific facial features) were integrated into the analysis. The hypothesis was that these additional characteristics might provide new, informative signals for predicting the transformed target. However, the incorporation of CelebA attributes did not lead to improved results, we have slightly worse results than the version without CelebA data (drop form 71% to 60% test accuracy). The model may have become more complex without gaining beneficial information, or these attributes may not correlate strongly with the target.
 
 **Combinations:**  We grouped by all possible combinations of features in order to see which group that has a certain combination will have the best success score, which is another way to determine the success factors.
+
 **Network Analysis :**
 * Genre and Countries for top actors : additionally to regression, we used network x to visualize the relationship of the 30 top actors and actresses with the genres and countries. By analyzing node degrees and centrality metrics, we identified the most influential genres and countries in each network. For instance, “Drama”, “Comedy” “Thrillers”, were the genre nodes with the most edges while it was “USA”, “UK” and “Germany” for the countries. This helped identify the best places to start a career and the genres that lead to success.
 
