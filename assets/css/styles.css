@@ -146,5 +146,7 @@ body {
 /* ======================     INTERACTIVE     ====================== */
 .interactive-career{
   width: 100%;
+  height: 30rem;
   padding: 0 10%;
+  border: none;
 }
