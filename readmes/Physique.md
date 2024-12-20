@@ -1,4 +1,4 @@
-
+<br><br>
 So Astra, the data has spoken, our magic and powerful regression machine told us about all the physical attributes you need to have to become tomorrow’s movie star. First, you need to forget about arched eyebrows even though they scream drama, the audience says keep it natural. Something that’s clearly unexpected is that being too good-looking might actually hurt your score, sorry bro you know what’s waiting for you. <br><br>
 
 

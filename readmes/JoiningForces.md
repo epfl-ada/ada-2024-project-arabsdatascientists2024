@@ -12,6 +12,6 @@ We conducted an extensive study using a heatmap of scores based on every combina
 }
 </style>
 <br><br>
-The best combinations need to be revealed... <br><br>
+The best combinations of this additionnal reasarch need to be revealed... <br><br>
 
 "Momo," we said, "you represent the culmination of this analysis. You shall succeed if you find yourself to be a highly educated male from a privileged background with a privileged start. If you find yourself to be a female, and as unfortunate as it may seem, our analysis has shown that your looks carry more weight in determining your success. To thrive, you should be attractive, with wavy blond hair, high cheekbones, and a pointy nose, combined with a privileged background and a privileged start."<br><br>
