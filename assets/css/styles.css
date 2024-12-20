@@ -152,3 +152,28 @@ body {
   padding: 0 10%;
   border: none;
 }
+
+
+
+/* ====================== TEMPLATES ====================== */
+.table-plot-text{
+  width: 100%; /* Make the table take full width */
+  table-layout: fixed; /* Ensures columns respect defined widths */
+  border-collapse: collapse; /* Removes gaps between table cells */
+}
+
+.table-side-plot-td{
+  width: 50%; /* Set the width of the image column */
+  vertical-align: top; /* Align the content to the top */
+}
+
+.table-side-text-td{
+  width: 50%; /* Set the width of the text column */
+  padding-left: 1rem; /* Add some spacing between the image and text */
+  vertical-align: top; /* Align the content to the top */
+}
+
+.table-side-plot-img{
+  max-width: 100%; /* Ensures the image fits within the column */
+  height: auto; /* Maintains the aspect ratio */
+}
