@@ -10,16 +10,8 @@ Moving on to your vibe: the “I’m a hardworking legend” or “I stayed up a
 Whatever you do, don't you dare lace up your running shoes and go for a marathon before filming a scene. Here's a heads-up: rosy cheeks and sweats? Not the public’s vibe. And big lips? Also a no-go. Maybe they think big lips equal big mouths, and let’s face it, nobody likes a chatterbox. Harsh? Maybe. But HELLO, Astra, we’re building you for stardom, not a chit-chat session.<br><br>
 
 
-<div style="text-align: center;">
-  <img src="assets/media/graphlylia.png" alt="graphlylia" class="physique-graphlylia">
-</div>
+<img src="assets/media/graphlylia.png" alt="graphlylia" class="section-image">
 
-<style>
-.physique-graphlylia {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
 <br><br>
 
 Oh, wait! We almost forgot to spill the tea, there are some power duos in the physical attribute game that push you straight to the top of the rankings. But shhh... let’s keep it a secret. We wouldn’t want anyone to steal your spotlight.<br><br>
@@ -29,30 +21,14 @@ First up, pale skin paired with rosy cheeks: the ultimate clean skin vibe. It’
 Unfortunately, not every combo makes the cut. The “I’m attractive, but my bags under the eyes prove I’m only human” vibe? Yeah… forget it, turns out it’s not part of the secret success formula. So maybe get a little rest or at least invest in some good concealer.<br><br>
 
 
-<div style="text-align: center;">
-  <img src="assets/media/graphlylia2.png" alt="graphlylia2" class="physique-graphlylia2">
-</div>
+<img src="assets/media/graphlylia2.png" alt="graphlylia2" class="section-image">
 
-<style>
-.physique-graphlylia2 {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
 <br><br>
 
 Further analysis revealed another critical factor: height. The boxplot below highlighting the height distribution by KMeans clusters and gender: <br><br>
 
-<div style="text-align: center;">
-  <img src="assets/media/genderandheights.png" alt="genderandheights" class="physique-genderandheights">
-</div>
+<img src="assets/media/genderandheights.png" alt="genderandheights" class="section-image">
 
-<style>
-.physique-genderandheights {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
 <br><br>
 
 We started by clustering our data according to all the features we have. Since our data is cathegorical, we used hot encoding in order to use K-means model which is more adapted in our case, and according to our data - that had levels for example for education or priviledge. 
@@ -71,16 +47,8 @@ We gained an additional insight: successful women tend to be taller than average
 “ Yes, we know that you don’t have innate knowlege so here is a regression for you to see a bit clearer "
 <br><br>
 
-<div style="text-align: center;">
-  <img src="assets/media/reg_careerstart.jpg" alt="regcareerstart" class="physique-regcareerstart">
-</div>
+<img src="assets/media/reg_careerstart.jpg" alt="regcareerstart" class="section-image">
 
-<style>
-.physique-regcareerstart {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
 <br><br>
 
 *Astra still looking confused* <br><br>

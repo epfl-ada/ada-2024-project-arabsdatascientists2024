@@ -5,16 +5,7 @@ The first step in Astra’s creation is to determine his origins. Astra surely h
 
 After an analysis of global cinematic powerhouses, we made our choice. The U.S. stands out with the highest actor scores, reflecting its leading role in the global film industry. This is likely due to Hollywood's prominence and the opportunities available for actors to achieve international acclaim.<br><br>
 
-<div style="text-align: center;">
-  <img src="assets/media/countries.jpg" alt="countries" class="intro-countries">
-</div>
-
-<style>
-.intro-countries {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
+<img src="assets/media/countries.jpg" alt="countries" class="section-image">
 
 <br>
 “Astra,” we said,  “In the U.S., you will be born and that gives you an inherent advantage, as actors from the U.S. statistically achieve the highest scores.”<br><br>
@@ -36,17 +27,7 @@ As we know you’re not the sharpest tool in the shed, we will sum it up for you
 
 What did we say again? You know it’s true. Anyway, we were saying, linear regression has spoken, being highly educated and underprivileged works like a charm, making you both credible and relatable. You know your destiny now.<br><br>
 
-<div style="text-align: center;">
-  <img src="assets/media/backlylia.png" alt="backlylia" class="intro-backlylia">
-</div>
-
-<style>
-.intro-backlylia {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
-
+<img src="assets/media/backlylia.png" alt="backlylia" class="section-image">
 
 Before going any further, we faced a crucial decision: Astra’s gender. <br><br>
 

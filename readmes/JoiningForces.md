@@ -1,16 +1,8 @@
 <br><br>
 We conducted an extensive study using a heatmap of scores based on every combinations of traits. We uncovered the combinations most likely to produce the best actors, looking for the best success meteric. This heatmap allowed us to visualize the interactions between these factors and identify the optimal traits for success.<br><br>
 
-<div style="text-align: center;">
-  <img src="assets/media/heatmap.png" alt="heatmap" class="heatmap">
-</div>
+<img src="assets/media/heatmap.png" alt="heatmap" class="section-image">
 
-<style>
-.heatmap {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
 <br><br>
 The best combinations of this additionnal reasarch need to be revealed... <br><br>
 
