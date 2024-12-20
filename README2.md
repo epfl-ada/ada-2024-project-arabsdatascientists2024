@@ -47,6 +47,13 @@ We will employ the methods we discovered in the course to analyze the datasets:
 
 * "all-MiniLM-L6-v2" model : (after webscrapping actors biographies we stated earlier) We used this transformer-based sentence embedding model known for its efficiency and strong performance to convert both our curated reference phrases and each actor’s biography into high-dimensional embedding vectors. We chose some categories and wrote their corresponding phrase embeddings and then computed cosine similarities between the biography embedding and each category’s representative phrase embeddings to quantify their semantic alignment.
 
+**Regression:** Linear, Saturated, Regularized and GBR (Gradient Boost regression)
+
+* Linear Regression with smf : linear regression was very helpful to determine which features were significant. By looking at the summary of the regression we could identify the features with p-values < 5%, which had the most impact on the score. It also allowed us to identify the features that we were going to use in the saturated regression. We ended this regression with plot showing confidence intervals for each feature to make sure they were far from 0.
+* Saturated Regression : we employed saturated regression, to include interaction terms between the significant features. This approach was particularly valuable for the CelebA dataset, where combinations of features often played a significant role in shaping success. For example, the interaction between "Pale Skin" and "Rosy Cheeks" revealed a synergistic effect that boosted scores, even though these traits had limited individual impact. On the other hand, it didin’t provide much for the social background attributes.
+* Regularized Regression Lasso & Ridge : To handle the high dimensionality of celebA we also tested regularized regression. Lasso regression was particularly restrictive in feature selection. It shrinked all our coefficients to zero except for 3 : “Gray hair”, “Attractive” and “Big lips”. On the other hand Ridge was less severe but it impacted large coefficients, to ensure that no individual feature disproportionately influenced the results. The features found with Lasso were top 3 in Ridge, and consistent with the 2 previous regressions.
+* Gradient Boost Regression : This method helped us see which features were best for predicting our score. For instance, GBR confirmed the importance of traits like "Bald" and "Gray Hair," which were also identified by all the other techniques as significant predictors. SHAP values visualization gave us insights into which traits drove success to further confirm our results.
+
 **Clustering Models:** K-means, K-modes and GMM (Gaussian Mixture Models)
 
 * K-means & K-modes : First, for the data containing only categorical features, we utilized K-modes, an algorithm specifically designed to cluster categorical data. To determine a suitable number of clusters, we employed the "elbow method," which involves running the clustering with varying numbers of clusters (K) and examining the resulting cost function or silhouette scores, we identified an optimal K (K=2) and performed K-modes. For the dataset that included continuous features, we scaled the data using StandardScaler and applied K-means. We then evaluated how well each cluster differentiated actors in terms of `Score_PCA_2_scaled` and other features. Visualizations then helped interpret the clusters by comparing distributions of attributes and seeing how each cluster performed relative to the chosen success metric.
@@ -58,13 +65,16 @@ We will employ the methods we discovered in the course to analyze the datasets:
 * With CelebA : In an attempt to refine the model further, CelebA attributes (such as specific facial features) were integrated into the analysis. The hypothesis was that these additional characteristics might provide new, informative signals for predicting the transformed target. However, the incorporation of CelebA attributes did not lead to improved results, we have slightly worse results than the version without CelebA data (drop form 71% to 60% test accuracy). The model may have become more complex without gaining beneficial information, or these attributes may not correlate strongly with the target.
 
 **Combinations:**  We grouped by all possible combinations of features in order to see which group that has a certain combination will have the best success score, which is another way to determine the success factors.
+**Network Analysis :**
+* Genre and Countries for top actors : additionally to regression, we used network x to visualize the relationship of the 30 top actors and actresses with the genres and countries. By analyzing node degrees and centrality metrics, we identified the most influential genres and countries in each network. For instance, “Drama”, “Comedy” “Thrillers”, were the genre nodes with the most edges while it was “USA”, “UK” and “Germany” for the countries. This helped identify the best places to start a career and the genres that lead to success.
 
 ## Organization within the Team
 
 - **Ali** : Webscrapping to incorporate new features, GMM clustering techniques, MLP deep learning techniques.
-- **Lylia** : Regressions and network analysis.
+- **Lylia** : Regressions, network analysis and Data Story.
 - **Zaynab** : Clustering using K-means and K-modes, Combinations, Data Story.
 - **Yassin** : Structuring the datset (webscrapping, hotencoding), Network analysis.
 - **Christian** : Website layout, structuring the datset.
 
 ## Limits
+- **Physical features** : We have done an analysis to identify the physical attributes that would propel an actor to the top of the rankings. To do so, we used celebA dataset, however it had attributes for only 4% of our data. Thus, we did a subset analysis but we know that this doesn't represent the result we could have obtained with a larger dataset.
