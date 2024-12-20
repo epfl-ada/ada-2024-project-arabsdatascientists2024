@@ -1,4 +1,4 @@
-Data empowers us to uncover hidden insights—imagine using it to create the next superstar!
+Data empowers us to uncover hidden insights—imagine using it to create the next superstar!<br>
 
 <img src="assets/media/bonhomme.png" alt="bonhomme" class="intro-bonhomme">
 
