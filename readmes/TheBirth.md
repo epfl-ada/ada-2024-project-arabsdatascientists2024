@@ -1,5 +1,4 @@
-<br><br>
-<br><br>
+<br>
 
 
 The first step in Momo’s creation is to determine his origins. Momo surely has no power over his predetermining factors, but we do. <br><br>
@@ -9,6 +8,13 @@ After an analysis of global cinematic powerhouses, we made our choice. The U.S. 
 <div style="text-align: center;">
   <img src="assets/media/countries.jpg" alt="countries" class="intro-countries">
 </div>
+
+<style>
+.intro-countries {
+  max-width: 40%; 
+  height: auto;   
+}
+</style>
 “Momo,” we said,  “In the U.S., you will be born and that gives you an inherent advantage, as actors from the U.S. statistically achieve the highest scores.”<br><br>
 
 But the U.S. is vast and varied. "We must determine with more specificity your socio-economic background," we continued. <br><br>
