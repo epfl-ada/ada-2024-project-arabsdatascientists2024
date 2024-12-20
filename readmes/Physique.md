@@ -19,6 +19,7 @@ Also, the “I’m a hard working legend” or “party animal” look that give
   height: auto;   
 }
 </style>
+<br><br>
 
 But we forgot to tell you there are also power couples in the physical attributes that could propel you to the top of the ranking but shhhh… let’s keep it between us, we wouldn’t want someone to take your place.<br><br>
 
@@ -34,6 +35,7 @@ Pale skin and rosy cheeks is the ultimate clean skin vibe, so remember to pinch 
   height: auto;   
 }
 </style>
+<br><br>
 
 Further analysis revealed another critical factor: height. The boxplot below highlighting the height distribution by KMeans clusters and gender: <br><br>
 
@@ -58,9 +60,10 @@ We gained an additional insight: successful women tend to be taller than average
 
 <iframe src="assets/interactive/age_distribution.html" class="interactive-career"></iframe>
 
-*Astra looking at us confused*
+*Astra looking at us confused*<br><br>
 
 “ Yes, we know that you don’t have innate knowlege so here is a regression for you to see a bit clearer "
+<br><br>
 
 <div style="text-align: center;">
   <img src="assets/media/reg_careerstart.jpg" alt="regcareerstart" class="physique-regcareerstart">

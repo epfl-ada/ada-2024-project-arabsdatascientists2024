@@ -2,8 +2,8 @@ const sections = [
     { id: "Chapter1", title: "Chapter 1", file: "readmes/Chapter1.md" },
     { id: "TheBirth", title: "The Birth", file: "readmes/TheBirth.md" },
     { id: "Physique", title: "Physique", file: "readmes/Physique.md" },
-    { id: "clustering", title: "Clustering", file: "readmes/Clustering.md" },
-    { id: "EndWord", title: "EndWord", file: "readmes/EndWord.md" },
+    { id: "JoiningForces", title: "Joining forces", file: "readmes/JoiningForces.md" },
+    { id: "EndWord", title: "End word", file: "readmes/EndWord.md" },
   ];
   
   const topBarButtons = document.getElementById("top-bar-buttons");

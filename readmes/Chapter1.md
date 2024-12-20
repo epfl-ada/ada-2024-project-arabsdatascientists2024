@@ -26,7 +26,7 @@ Using ratings as our guide, we used PCA to analyze the underlying structure of m
 
 <style>
 .intro-topactors {
-  max-width: 50%; 
+  max-width: 70%; 
   height: auto;   
 }
 </style>
