@@ -3,7 +3,7 @@
 Data empowers us to uncover hidden insights—imagine using it to create the next superstar!<br><br>
 
 <div style="text-align: center;">
-  <img src="assets/media/bonhomme.jpg" alt="bonhomme" class="intro-bonhomme">
+  <img src="assets/media/bonhomme2.jpg" alt="bonhomme2" class="intro-bonhomme2">
 </div>
 <br><br>
 
