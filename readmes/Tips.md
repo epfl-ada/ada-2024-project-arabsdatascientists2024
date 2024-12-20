@@ -60,16 +60,9 @@ The smallest communities, such as Communities 16 and 17, contained just two or t
 
 Interestingly, while drama was the most consistent genre across all communities, its presence diminished in smaller clusters, which began to reflect more niche genres and focused collaborations. Additionally, the dominance of the United States as a primary country across all communities indicates its pivotal role in shaping global actor collaborations.<br><br>
 
-<div style="text-align: center;">
-  <img src="assets/media/taby1.jpg" alt="taby1" class="tips-taby1">
-</div>
 
-<style>
-.tips-taby1 {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
+<iframe src="assets/interactive/community_statistics.html" class="community_statistics"></iframe>
+
 <br><br>
 
 As we delved into the overall structure of the largest community's collaboration network, a few key statistics shed light on its nature. The clustering coefficient of the network was calculated to be 0.3431, indicating a moderate tendency for actors to form tightly connected groups. This means that while many actors tend to collaborate in localized clusters, the network isn’t overly cliquish. There’s enough openness in the structure to allow for connections between different groups.<br><br>
@@ -101,11 +94,6 @@ Smaller communities revealed even more distinct traits. Community 3, with 394 ac
 The smallest communities provided a fascinating contrast. Groups like Community 9 (13 actors) and Community 10 (6 actors) were fully connected, with clustering coefficients and densities of 1.0000. These communities operated as complete subgraphs, where every actor was directly connected to every other actor. Central figures in these groups, such as Harold Herthum and Madison Lanc, likely played central roles in niche or specialized collaboration networks.<br><br>
 
 Interestingly, as the communities decreased in size, their clustering coefficients generally increased. This reflects the natural tendency of smaller groups to form complete or near-complete networks. For example, Community 16 and Community 17, with just 3 and 2 members respectively, were fully connected but lacked broader influence due to their limited size.<br><br>
-
-<iframe src="assets/interactive/community_statistics.html" class="community_statistics"></iframe>
-
-
-
 
 "Your path," we said with conviction, "lies with them, the most succesful and connected."  We calculated graph metrics like centrality and clustering coefficients, uncovering the actors who were not just participants but leaders of their communities. Among them were the top performers—those with scores greater than 7. We added, "Collaborate wisely, and let their influence sharpen your talent. Sadly, success isn’t just about being seen—it’s about being seen with the right people."<br><br>
 
