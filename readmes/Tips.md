@@ -14,31 +14,14 @@ Staying in the top genres you have Action. … BANG BANG… we know we scared yo
 
 Last but not least… ROMANCE, our personal favorite. Let’s not forget that “Love conquers it all”, I know you don’t like to show this side of you but imagine perfecting your dreamy stare and falling in love on set, you get 2 for the price of 1 !<br><br>
 
+<img src="assets/media/genre.jpg" alt="genre" class="section-image">
 
-<div style="text-align: center;">
-  <img src="assets/media/genre.jpg" alt="genre" class="tips-genre">
-</div>
-
-<style>
-.tips-genre {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
 <br><br>
 
 "Astra," we began, "in the world of acting, talent alone is rarely enough. Connections—powerful, strategic, and meaningful—can amplify your success. Let us guide you through a map of collaborations, where legends are forged."<br><br>
 
-<div style="text-align: center;">
-  <img src="assets/media/graphnetwork.jpg" alt="graphnetwork" class="tips-graphnetwork">
-</div>
+<img src="assets/media/graphnetwork.jpg" alt="graphnetwork" class="section-image">
 
-<style>
-.tips-graphnetwork {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
 <br><br>
 
 
