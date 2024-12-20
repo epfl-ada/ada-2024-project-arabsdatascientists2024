@@ -18,12 +18,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4rem;
+  font-size: 60px;
   font-weight: bold;
   padding: 2rem 0;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
-  width: 100vh;
   line-height: normal;
   letter-spacing: normal;
 }
@@ -156,6 +155,57 @@ body {
   border: none;
 }
 
+.community_statistics{
+  border: none;
+  width: 100%;
+  height: 430px;
+}
+
+
+/* ======================     TABLE     ====================== */
+
+.interactive-comm-stat {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.interactive-comm-stat thead th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.interactive-comm-stat tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.interactive-comm-stat tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.interactive-comm-stat tbody td,
+.interactive-comm-stat thead th {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.interactive-comm-stat tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+/* ========================================================== */
+
+.interactive-comm-stat{
+  width: auto;
+}
 
 
 /* ====================== TEMPLATES ====================== */
