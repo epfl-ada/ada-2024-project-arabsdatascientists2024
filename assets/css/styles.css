@@ -155,6 +155,14 @@ body {
   border: none;
 }
 
+.community_statistics{
+  border: none;
+  width: 100%;
+}
+
+.interactive-comm-stat{
+  width: auto;
+}
 
 
 /* ====================== TEMPLATES ====================== */
