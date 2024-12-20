@@ -1,3 +1,6 @@
+<br><br>
+<br><br>
+
 Data empowers us to uncover hidden insights—imagine using it to create the next superstar!<br><br>
 
 <div style="text-align: center;">

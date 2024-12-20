@@ -1,5 +1,5 @@
 const sections = [
-    { id: "introduction", title: "Introduction", file: "readmes/Introduction.md" },
+    { id: "Chapter1", title: "Chapter 1", file: "readmes/Chapter1.md" },
     { id: "TheBirth", title: "The Birth", file: "readmes/TheBirth.md" },
     { id: "regression", title: "Regression Analysis", file: "readmes/RegressionAnalysis.md" },
     { id: "clustering", title: "Clustering", file: "readmes/Clustering.md" },
