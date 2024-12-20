@@ -11,7 +11,7 @@ After an analysis of global cinematic powerhouses, we made our choice. The U.S. 
 
 <style>
 .intro-countries {
-  max-width: 5%; 
+  max-width: 50%; 
   height: auto;   
 }
 </style>
