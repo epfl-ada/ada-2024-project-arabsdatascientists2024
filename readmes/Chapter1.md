@@ -13,7 +13,7 @@ Data empowers us to uncover hidden insights—imagine using it to create the nex
 </style>
 <br><br>
 
-Let us introduce you to Astra. Astra was unique—not because of any physical traits or personality, but because he had none. He was a blank canvas, indescribable and undefined.<br><br>
+Let us introduce you to Astra. Astra was unique—not because of any physical traits or personality, but because it had none. It was a blank canvas, indescribable and undefined.<br><br>
 
 One day, our team of brilliant data scientists came up with an extraordinary mission. "Astra," we said, "you are unlike anyone else. You have no features, no history, no identity—and yet, you are destined for greatness. We will build you from scratch to become the next super actor, the greatest of all time."<br><br>
 
