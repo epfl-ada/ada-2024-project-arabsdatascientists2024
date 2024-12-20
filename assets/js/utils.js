@@ -3,7 +3,7 @@ const sections = [
     { id: "TheBirth", title: "The Birth", file: "readmes/TheBirth.md" },
     { id: "Physique", title: "Physique", file: "readmes/Physique.md" },
     { id: "clustering", title: "Clustering", file: "readmes/Clustering.md" },
-    { id: "network", title: "Network", file: "readmes/Network.md" },
+    { id: "EndWord", title: "EndWord", file: "readmes/EndWord.md" },
   ];
   
   const topBarButtons = document.getElementById("top-bar-buttons");
