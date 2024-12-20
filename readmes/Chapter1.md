@@ -5,6 +5,12 @@ Data empowers us to uncover hidden insights—imagine using it to create the nex
 <div style="text-align: center;">
   <img src="assets/media/bonhomme2.png" alt="bonhomme2" class="intro-bonhomme2">
 </div>
+<style>
+.intro-bonhomme2 {
+  max-width: 70%; 
+  height: auto;   
+}
+</style>
 <br><br>
 
 Let us introduce you to Astra. Astra was unique—not because of any physical traits or personality, but because he had none. He was a blank canvas, indescribable and undefined.<br><br>
