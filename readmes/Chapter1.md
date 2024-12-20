@@ -25,7 +25,7 @@ Using ratings as our guide, we used PCA to analyze the underlying structure of m
 </div>
 
 <style>
-.intro-countries {
+.intro-topactor {
   max-width: 10%; 
   height: auto;   
 }
