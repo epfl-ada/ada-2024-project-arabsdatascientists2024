@@ -132,7 +132,9 @@ body {
 
 
 /* ====================== REGRESSION ANALYSIS ====================== */
-
+.img-gender-proportion{
+  width: 50%;
+}
 
 
 /* ======================     CLUSTERING      ====================== */
