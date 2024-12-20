@@ -21,11 +21,11 @@ We gathered all our forces to create the most accurate success metric to convey 
 Using ratings as our guide, we used PCA to analyze the underlying structure of multiple variables: Oscar wins (encoded), number of movies, average rating, and total votes. This approach allowed us to better account for the diverse factors influencing Astra's potential greatness.<br><br>
 
 <div style="text-align: center;">
-  <img src="assets/media/topactors.png" alt="topactor" class="intro-topactors">
+  <img src="assets/media/topactors.png" alt="topactors" class="intro-topactors">
 </div>
 
 <style>
-.intro-topactor {
+.intro-topactors {
   max-width: 10%; 
   height: auto;   
 }
