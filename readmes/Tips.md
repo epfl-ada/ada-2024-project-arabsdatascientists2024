@@ -49,7 +49,7 @@ We dived into the data, focusing on the top actors. From there, we built a vibra
 
 "Your path," we said with conviction, "lies with them, the most succesful and connected."  We calculated graph metrics like centrality and clustering coefficients, uncovering the actors who were not just participants but leaders of their communities. Among them were the top performers—those with scores greater than 7. We added, "Collaborate wisely, and let their influence sharpen your talent. Sadly, success isn’t just about being seen—it’s about being seen with the right people."<br><br>
 
-<iframe src="assets/interactive/communitystatistics.html" class="interactive-career"></iframe>
+<iframe src="assets/interactive/community_statistics.html" class="community_statistics"></iframe>
 
 
 <div style="text-align: center;">
