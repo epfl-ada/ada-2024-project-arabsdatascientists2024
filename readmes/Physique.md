@@ -85,4 +85,4 @@ We gained an additional insight: successful women tend to be taller than average
 
 " Well, you surely won't be the smartest actor but you will be the most successful " <br><br>
 
-It appears that starting a career earlier is associated with a higher likelihood of success in acting. The variability in the data highlights that success depends on much more factors beyond just the age at which the career starts, which is the whole point of our analysis. <br><br>
+This regression shows a negative correlation between career start age and success as the slope of the line is negative, suggesting that starting a career earlier is generally associated with higher success. However, the wide spread of data points indicates that career start age alone does not strongly predict success, as other factors likely play a significant role, which is the whole point of our analysis. <br><br>
