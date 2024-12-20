@@ -60,7 +60,6 @@ The smallest communities, such as Communities 16 and 17, contained just two or t
 
 Interestingly, while drama was the most consistent genre across all communities, its presence diminished in smaller clusters, which began to reflect more niche genres and focused collaborations. Additionally, the dominance of the United States as a primary country across all communities indicates its pivotal role in shaping global actor collaborations.<br><br>
 
-
 <div style="text-align: center;">
   <img src="assets/media/taby1.jpg" alt="taby1" class="tips-taby1">
 </div>
@@ -110,17 +109,6 @@ Interestingly, as the communities decreased in size, their clustering coefficien
 
 "Your path," we said with conviction, "lies with them, the most succesful and connected."  We calculated graph metrics like centrality and clustering coefficients, uncovering the actors who were not just participants but leaders of their communities. Among them were the top performers—those with scores greater than 7. We added, "Collaborate wisely, and let their influence sharpen your talent. Sadly, success isn’t just about being seen—it’s about being seen with the right people."<br><br>
 
+<iframe src="assets/interactive/interests.html" class="interactive-interest"></iframe>
 
-
-
-<div style="text-align: center;">
-  <img src="assets/media/interets.jpg" alt="interets" class="tips-interets">
-</div>
-
-<style>
-.tips-interets {
-  max-width: 50%; 
-  height: auto;   
-}
-</style>
 <br><br>

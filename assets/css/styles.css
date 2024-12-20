@@ -158,7 +158,13 @@ body {
 .community_statistics{
   border: none;
   width: 100%;
-  height: 430px;
+  height: 600px;
+}
+
+.interactive-interest{
+  border: none;
+  width: 100%;
+  height: 600px;
 }
 
 /* ====================== TEMPLATES ====================== */
