@@ -1,6 +1,6 @@
 const sections = [
     { id: "introduction", title: "Introduction", file: "readmes/Introduction.md" },
-    { id: "research", title: "Research Questions", file: "readmes/ResearchQuestions.md" },
+    { id: "TheBirth", title: "The Birth", file: "readmes/TheBirth.md" },
     { id: "regression", title: "Regression Analysis", file: "readmes/RegressionAnalysis.md" },
     { id: "clustering", title: "Clustering", file: "readmes/Clustering.md" },
     { id: "network", title: "Network", file: "readmes/Network.md" },
