@@ -69,7 +69,15 @@ We will employ the methods we discovered in the course to analyze the datasets:
 **Combinations:**  We grouped by all possible combinations of features in order to see which group that has a certain combination will have the best success score, which is another way to determine the success factors.
 
 **Network Analysis :**
-* Genre and Countries for top actors : additionally to regression, we used network x to visualize the relationship of the 30 top actors and actresses with the genres and countries. By analyzing node degrees and centrality metrics, we identified the most influential genres and countries in each network. For instance, “Drama”, “Comedy” “Thrillers”, were the genre nodes with the most edges while it was “USA”, “UK” and “Germany” for the countries. This helped identify the best places to start a career and the genres that lead to success.
+In this section, we set out to explore the connections and collaborations between actors to better understand what contributes to their success beyond talent. To begin, we filtered the dataset to focus on the top 10% of actors based on their scores (Score_PCA_2_scaled). This allowed us to concentrate our analysis on the most relevant data.
+
+Next, we constructed a collaboration graph using movie IDs, genres, and countries. In this graph, each node represented an actor, and edges connected actors who had worked on the same movie. While this initial graph captured the full dataset, it turned out to be overly complex and challenging to interpret visually.
+
+To simplify the analysis, we narrowed our focus to the largest connected component of the graph—referred to as the largest community. This subset contained the densest network of actor collaborations, making it a natural candidate for deeper exploration. Within this largest community, we applied a community detection algorithm to identify smaller, distinct clusters of actors who frequently collaborated. This step revealed meaningful groupings that were easier to analyze and interpret.
+
+Once the communities were established, we computed various graph statistics to gain insights into the structure and dynamics of the network. These included measures like centrality, degree, density, and clustering coefficients, calculated both for the entire graph and for individual communities. These metrics helped us understand how actors were connected and how influential certain actors or groups were within the network.
+
+Finally, we turned our attention to the top-performing actors—those with scores greater than 7. We identified these high-scoring actors, highlighted them in the graph, and examined which communities they belonged to. This final step provided valuable insights into how collaboration networks might contribute to an actor’s success and which clusters were particularly impactful in fostering such success.
 
 ## Organization within the Team
 
