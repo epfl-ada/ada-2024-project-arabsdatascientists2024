@@ -22,7 +22,13 @@ Last but not least… ROMANCE, our personal favorite. Let’s not forget that �
 
 <img src="assets/media/graphnetwork.jpg" alt="graphnetwork" class="section-image">
 
-<br><br>
+
+<br>
+
+
+<iframe src="assets/interactive/centrality-degree.html" class="interactive-centrality"></iframe>
+
+<br>
 
 
 Upon examining the distribution of top central actors within the largest community, we discovered an intriguing pattern. Out of the 10 most central actors, six belonged to Community 1, making it the dominant cluster in terms of collaborative influence. This suggests that Community 1 functions as the primary hub for actor collaborations, where frequent interactions and strong connections drive collective success.<br><br>
