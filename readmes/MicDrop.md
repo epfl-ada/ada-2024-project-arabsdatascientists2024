@@ -40,8 +40,7 @@ Interestingly, only one top central actor was found in Community 3. This lone ac
 These findings underline the importance of collaborative density in achieving success. Actors in Community 1 appear to benefit from their position in a highly interconnected group, which likely provides opportunities for visibility and repeated collaborations. Meanwhile, the presence of central actors in smaller communities points to alternative paths to success, such as serving as a connector or standing out in a niche.<br><br>
 
 <br>
-
-As we delved into the overall structure of the largest community's collaboration network, a few key statistics shed light on its nature. The clustering coefficient of the network was calculated to be 0.3431, indicating a moderate tendency for actors to form tightly connected groups. This means that while many actors tend to collaborate in localized clusters, the network isn’t overly cliquish. There’s enough openness in the structure to allow for connections between different groups.<br><br>
+The clustering coefficient of the network was calculated to be 0.3431, indicating a moderate tendency for actors to form tightly connected groups. This means that while many actors tend to collaborate in localized clusters, the network isn’t overly cliquish. There’s enough openness in the structure to allow for connections between different groups.<br><br>
 
 Interestingly, the density of the network was found to be quite low at 0.0176, signifying a sparse network where only a small fraction of all possible collaborations exists. However, this low density is balanced by a high average degree of 78.43, which reveals that actors, on average, have worked with around 78 other co-stars. This highlights a robust environment where collaboration breadth plays a significant role, even if the network isn’t densely interconnected overall.<br><br>
 
@@ -49,18 +48,25 @@ What does this tell us about success in this network? Actors seem to thrive by f
 
 These findings provide a fascinating glimpse into the balance between localized and broad collaborations in the world of acting. The network's structure encourages actors to maintain a mix of close-knit teamwork and expansive professional relationships to maximize their opportunities.<br>
 
+
+<iframe src="assets/interactive/communities_metrics.html" class="communities_metrics"></iframe>
+<br>
+
 <iframe src="assets/interactive/community_statistics.html" class="community_statistics"></iframe>
+<br>
+
+<iframe src="assets/interactive/degree_distribution_dropdown.html" class="interactive-distribution"></iframe>
 
 <br>
-As we delved into the communities within the largest collaboration network, several interesting patterns emerged. The largest community, Community 1, stood out with 2,233 actors and an average score of 2.64. It was heavily dominated by genres such as drama, comedy, and thriller, with the United States, the United Kingdom, and Germany being the primary countries represented. This community's size and high average score suggest it is a central hub of the global entertainment industry, featuring diverse actors collaborating across numerous genres.<br><br>
-
-Community 2, while smaller at 1,638 actors, displayed similar characteristics, with drama, thriller, and action as its top genres. Its slightly lower average score (2.62) indicates a highly active but marginally less influential network compared to Community 1. The predominance of the United States, the United Kingdom, and Germany reinforces the transatlantic nature of collaborations in this cluster.<br><br>
-
-As we moved to smaller communities, the patterns shifted. For instance, Community 3 (394 actors) maintained drama as the dominant genre but showed a significant drop in average score to 2.51. This community seems to be less central yet remains relevant due to its alignment with popular genres like thriller and comedy.<br><br>
-
-The smallest communities, such as Communities 16 and 17, contained just two or three actors each and had average scores below 1.6. These clusters represented niche genres like stop motion, animated musical, or biography, often tied to specific production regions such as Japan or South Korea. Their lower scores and small sizes suggest that these actors operate in specialized or localized networks with limited global reach.<br><br>
-
-Interestingly, while drama was the most consistent genre across all communities, its presence diminished in smaller clusters, which began to reflect more niche genres and focused collaborations. Additionally, the dominance of the United States as a primary country across all communities indicates its pivotal role in shaping global actor collaborations.<br><br>
+As we delved into the structure of the largest collaboration network, distinct patterns and characteristics emerged across communities of varying sizes. Community 1, the largest with 2,233 actors, stood out as a central hub of the global entertainment industry. Dominated by genres like drama, comedy, and thriller, it had a high average score of 2.64 and a notable average degree of 85.19, indicating frequent collaborations across a wide range of co-stars. Despite its size, the density was relatively low (0.0382), suggesting a sparse network, while the average clustering coefficient (0.2427) reflected modest interconnectedness. Samuel L. Jackson emerged as the most central actor, underscoring his influence in this sprawling collaboration hub.
+<br>
+Community 2, smaller with 1,638 actors, mirrored some traits of Community 1 but displayed tighter connections with a higher clustering coefficient of 0.4533. Its slightly lower average score (2.62) and reduced average degree (33.47) indicate a less expansive yet more cohesive collaboration network. Like Community 1, it featured top genres such as drama, thriller, and action, with Cate Blanchett as the central figure. Both communities were predominantly shaped by the United States, the United Kingdom, and Germany, highlighting the transatlantic nature of collaborations.
+<br>
+Smaller communities exhibited unique dynamics. Community 3, comprising 394 actors, demonstrated a high clustering coefficient (0.7048) and moderate density (0.0327), reflecting tightly knit collaborations, with Harvey Keitel as the central actor. Its lower average score (2.51) and alignment with genres like drama, thriller, and comedy suggest it remains relevant but less influential.
+<br>
+The smallest communities, such as Communities 9 (13 actors) and 10 (6 actors), operated as fully connected subgraphs with clustering coefficients and densities of 1.0000. These highly specialized groups revolved around central figures like Harold Herthum and Madison Lanc. Even smaller clusters, like Communities 16 and 17 with just 3 and 2 members, revealed niche genres such as stop motion and animated musicals, tied to specific regions like Japan or South Korea, with average scores below 1.6, underscoring their limited global influence.
+<br>
+Interestingly, as community size decreased, clustering coefficients generally increased, reflecting the natural tendency of smaller groups to form complete or near-complete networks. Drama emerged as the most consistent genre across all communities, though its prominence diminished in smaller clusters, which shifted toward niche genres and localized collaborations. The pervasive influence of the United States across all communities underscores its pivotal role in shaping global actor collaborations.
 
 <br>
 
@@ -77,28 +83,10 @@ When considering closeness centrality, which measures how quickly an actor can c
 <b>Betweenness Centrality:</b><br>
 Betweenness centrality provides a measure of how often an actor serves as a bridge between other actors. Unsurprisingly, Samuel L. Jackson led this metric as well, with a value of 0.0144, highlighting his role as a key connector. However, the rankings introduced some new faces, such as Joel Torre and Chris Cooper, who appeared alongside more familiar names like Bruce Willis and Morgan Freeman. This suggests that these actors may play strategic roles in connecting otherwise disconnected parts of the network.<br><br>
 
-
-<iframe src="assets/interactive/communities_metrics.html" class="communities_metrics"></iframe>
-
-<br>
-As we delved deeper into the structure of the individual communities within the largest collaboration network, distinct characteristics began to emerge. Community 1, the largest group with 2,233 actors, showed an average clustering coefficient of 0.2427. This indicates a modest level of interconnectedness among its members. Despite its size, the density was relatively low at 0.0382, suggesting a sparse network. However, the average degree was high at 85.19, reflecting that actors in this community often collaborate with a wide range of co-stars. Samuel L. Jackson emerged as the most central actor, highlighting his influential role in this sprawling collaboration hub.<br><br>
-
-Moving to Community 2, which includes 1,638 actors, the clustering coefficient increased significantly to 0.4533, signaling tighter connections among its members. The density, however, remained lower at 0.0204, while the average degree dropped to 33.47, indicating fewer but more cohesive collaborations. Here, Cate Blanchett was the most central figure, suggesting her pivotal position within this group.<br><br>
-
-Smaller communities revealed even more distinct traits. Community 3, with 394 actors, boasted a high clustering coefficient of 0.7048, demonstrating a tightly knit group with frequent collaborations. Despite its smaller size, the density remained moderate at 0.0327, and Harvey Keitel stood out as the most central actor.<br><br>
-
-The smallest communities provided a fascinating contrast. Groups like Community 9 (13 actors) and Community 10 (6 actors) were fully connected, with clustering coefficients and densities of 1.0000. These communities operated as complete subgraphs, where every actor was directly connected to every other actor. Central figures in these groups, such as Harold Herthum and Madison Lanc, likely played central roles in niche or specialized collaboration networks.<br><br>
-
-Interestingly, as the communities decreased in size, their clustering coefficients generally increased. This reflects the natural tendency of smaller groups to form complete or near-complete networks. For example, Community 16 and Community 17, with just 3 and 2 members respectively, were fully connected but lacked broader influence due to their limited size.<br><br>
-
-"Your path," we said with conviction, "lies with them, the most succesful and connected."  We calculated graph metrics like centrality and clustering coefficients, uncovering the actors who were not just participants but leaders of their communities. Among them were the top performers—those with scores greater than 7. We added, "Collaborate wisely, and let their influence sharpen your talent. Sadly, success isn’t just about being seen—it’s about being seen with the right people."<br><br>
-
 <iframe src="assets/interactive/interests.html" class="interactive-interest"></iframe>
 <br><br>
 
 
-<iframe src="assets/interactive/degree_distribution_dropdown.html" class="interactive-distribution"></iframe>
-<br><br>
 
 The world of acting is not just about talent; it’s also about strategy, connections, and choosing the right opportunities. Through our analysis, a clear picture emerged of what it takes to rise to the top in this competitive industry.
 <br>
