@@ -31,7 +31,7 @@ Last but not least… ROMANCE, our personal favorite. Let’s not forget that �
 <br>
 
 
-Upon examining the distribution of top central actors within the largest community, we discovered an intriguing pattern. Out of the 10 most central actors, six belonged to Community 1, making it the dominant cluster in terms of collaborative influence. This suggests that Community 1 functions as the primary hub for actor collaborations, where frequent interactions and strong connections drive collective success.<br><br>
+Upon examining the distribution of top central actors within the network, we discovered an intriguing pattern. Out of the 10 most central actors, six belonged to Community 1, making it the dominant cluster in terms of collaborative influence. This suggests that Community 1 functions as the primary hub for actor collaborations, where frequent interactions and strong connections drive collective success.<br><br>
 
 Community 2 followed, with three top central actors. While smaller than Community 1, this group still holds significant collaborative power, indicating that it is another important cluster contributing to the overall network's success. Its presence highlights that influential collaborations are not entirely concentrated in a single group but are distributed across multiple clusters.<br><br>
 
