@@ -1,7 +1,7 @@
 const sections = [
     { id: "LightsOn", title: "Lights on", file: "readmes/LightsOn.md" },
-    { id: "Origins", title: "Origins", file: "readmes/Origins.md" },
-    { id: "GlowUp", title: "Glow up", file: "readmes/GlowUp.md" },
+    { id: "Origins", title: "Origins", file: "readmes/Origins2.md" },
+    { id: "GlowUp", title: "Glow up", file: "readmes/GlowUp2.md" },
     { id: "MicDrop", title: "Mic drop", file: "readmes/MicDrop.md" },
     { id: "JoiningForces", title: "Joining Forces", file: "readmes/JoiningForces.md" },
     { id: "EndWord", title: "End word", file: "readmes/EndWord.md" },
