@@ -67,6 +67,82 @@ Smaller communities exhibited unique dynamics. Community 3, comprising 394 actor
 The smallest communities, such as Communities 9 (13 actors) and 10 (6 actors), operated as fully connected subgraphs with clustering coefficients and densities of 1.0000. These highly specialized groups revolved around central figures like Harold Herthum and Madison Lanc. Even smaller clusters, like Communities 16 and 17 with just 3 and 2 members, revealed niche genres such as stop motion and animated musicals, tied to specific regions like Japan or South Korea, with average scores below 1.6, underscoring their limited global influence.
 <br><br>
 Interestingly, as community size decreased, clustering coefficients generally increased, reflecting the natural tendency of smaller groups to form complete or near-complete networks. Drama emerged as the most consistent genre across all communities, though its prominence diminished in smaller clusters, which shifted toward niche genres and localized collaborations. The pervasive influence of the United States across all communities underscores its pivotal role in shaping global actor collaborations.
+<br><br>
+
+<table style="border-collapse: collapse; width: 80%; margin: 20px auto; text-align: left;">
+    <thead style="background-color: #f2f2f2;">
+        <tr>
+            <th style="padding: 8px;">Centrality Type</th>
+            <th style="padding: 8px;">Actor</th>
+            <th style="padding: 8px;">Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="5" style="padding: 8px; text-align: center;">Degree Centrality</td>
+            <td style="padding: 8px;">Samuel L. Jackson</td>
+            <td style="padding: 8px;">0.1402</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Bruce Willis</td>
+            <td style="padding: 8px;">0.1174</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Steve Buscemi</td>
+            <td style="padding: 8px;">0.1093</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Christopher Walken</td>
+            <td style="padding: 8px;">0.0949</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Robert De Niro</td>
+            <td style="padding: 8px;">0.0936</td>
+        </tr>
+        <tr>
+            <td rowspan="5" style="padding: 8px; text-align: center;">Closeness Centrality</td>
+            <td style="padding: 8px;">Samuel L. Jackson</td>
+            <td style="padding: 8px;">0.5157</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Bruce Willis</td>
+            <td style="padding: 8px;">0.5052</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Steve Buscemi</td>
+            <td style="padding: 8px;">0.4997</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Matt Damon</td>
+            <td style="padding: 8px;">0.4983</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Willem Dafoe</td>
+            <td style="padding: 8px;">0.4982</td>
+        </tr>
+        <tr>
+            <td rowspan="5" style="padding: 8px; text-align: center;">Betweenness Centrality</td>
+            <td style="padding: 8px;">Samuel L. Jackson</td>
+            <td style="padding: 8px;">0.0144</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Joel Torre</td>
+            <td style="padding: 8px;">0.0108</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Chris Cooper</td>
+            <td style="padding: 8px;">0.0101</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Bruce Willis</td>
+            <td style="padding: 8px;">0.0077</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Morgan Freeman</td>
+            <td style="padding: 8px;">0.0066</td>
+        </tr>
+    </tbody>
+</table>
 
 <br>
 <br>
