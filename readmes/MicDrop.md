@@ -64,16 +64,17 @@ Interestingly, while drama was the most consistent genre across all communities,
 
 <br>
 
-Centrality Analysis: Unveiling the Key Players<br><br>
+<b>Centrality Analysis: Unveiling the Key Players<b>
+<br>
 As we analyzed the centralities of nodes in the largest collaboration network, a clear picture began to emerge of the actors who hold the most influence and connectivity within the network. Centrality metrics provide a way to measure an actor's prominence, influence, and strategic position within the collaboration ecosystem.<br><br>
 
-Degree Centrality:<br><br>
+<b>Degree Centrality:<b><br>
 The top-ranked actor by degree centrality was Samuel L. Jackson, with a centrality value of 0.1401. This means that he is directly connected to about 14% of all actors in the largest community, making him a prolific collaborator and a key player in fostering connections. Following him were Bruce Willis (0.1174) and Steve Buscemi (0.1093), both known for their extensive filmographies and participation in ensemble casts. Actors like Christopher Walken and Robert De Niro rounded out the top five, further emphasizing the importance of their collaborative roles.<br><br>
 
-Closeness Centrality:<br><br>
+<b>Closeness Centrality:<b><br>
 When considering closeness centrality, which measures how quickly an actor can connect to others in the network, Samuel L. Jackson once again emerged as the leader, with a value of 0.5157. This indicates that he is well-positioned to reach any actor in the network with minimal steps. Bruce Willis and Steve Buscemi followed closely, reflecting their ability to act as intermediaries. Interestingly, Matt Damon and Willem Dafoe joined the top five here, suggesting that their collaborations span diverse and accessible parts of the network.<br><br>
 
-Betweenness Centrality:
+<b>Betweenness Centrality:<b>
 Betweenness centrality provides a measure of how often an actor serves as a bridge between other actors. Unsurprisingly, Samuel L. Jackson led this metric as well, with a value of 0.0144, highlighting his role as a key connector. However, the rankings introduced some new faces, such as Joel Torre and Chris Cooper, who appeared alongside more familiar names like Bruce Willis and Morgan Freeman. This suggests that these actors may play strategic roles in connecting otherwise disconnected parts of the network.<br><br>
 
 As we delved deeper into the structure of the individual communities within the largest collaboration network, distinct characteristics began to emerge. Community 1, the largest group with 2,233 actors, showed an average clustering coefficient of 0.2427. This indicates a modest level of interconnectedness among its members. Despite its size, the density was relatively low at 0.0382, suggesting a sparse network. However, the average degree was high at 85.19, reflecting that actors in this community often collaborate with a wide range of co-stars. Samuel L. Jackson emerged as the most central actor, highlighting his influential role in this sprawling collaboration hub.<br><br>
