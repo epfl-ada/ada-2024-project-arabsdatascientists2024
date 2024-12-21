@@ -59,13 +59,13 @@ These findings provide a fascinating glimpse into the balance between localized 
 
 <br>
 As we delved into the structure of the largest collaboration network, distinct patterns and characteristics emerged across communities of varying sizes. Community 1, the largest with 2,233 actors, stood out as a central hub of the global entertainment industry. Dominated by genres like drama, comedy, and thriller, it had a high average score of 2.64 and a notable average degree of 85.19, indicating frequent collaborations across a wide range of co-stars. Despite its size, the density was relatively low (0.0382), suggesting a sparse network, while the average clustering coefficient (0.2427) reflected modest interconnectedness. Samuel L. Jackson emerged as the most central actor, underscoring his influence in this sprawling collaboration hub.
-<br>
+<br><br>
 Community 2, smaller with 1,638 actors, mirrored some traits of Community 1 but displayed tighter connections with a higher clustering coefficient of 0.4533. Its slightly lower average score (2.62) and reduced average degree (33.47) indicate a less expansive yet more cohesive collaboration network. Like Community 1, it featured top genres such as drama, thriller, and action, with Cate Blanchett as the central figure. Both communities were predominantly shaped by the United States, the United Kingdom, and Germany, highlighting the transatlantic nature of collaborations.
-<br>
+<br><br>
 Smaller communities exhibited unique dynamics. Community 3, comprising 394 actors, demonstrated a high clustering coefficient (0.7048) and moderate density (0.0327), reflecting tightly knit collaborations, with Harvey Keitel as the central actor. Its lower average score (2.51) and alignment with genres like drama, thriller, and comedy suggest it remains relevant but less influential.
-<br>
+<br><br>
 The smallest communities, such as Communities 9 (13 actors) and 10 (6 actors), operated as fully connected subgraphs with clustering coefficients and densities of 1.0000. These highly specialized groups revolved around central figures like Harold Herthum and Madison Lanc. Even smaller clusters, like Communities 16 and 17 with just 3 and 2 members, revealed niche genres such as stop motion and animated musicals, tied to specific regions like Japan or South Korea, with average scores below 1.6, underscoring their limited global influence.
-<br>
+<br><br>
 Interestingly, as community size decreased, clustering coefficients generally increased, reflecting the natural tendency of smaller groups to form complete or near-complete networks. Drama emerged as the most consistent genre across all communities, though its prominence diminished in smaller clusters, which shifted toward niche genres and localized collaborations. The pervasive influence of the United States across all communities underscores its pivotal role in shaping global actor collaborations.
 
 <br>
