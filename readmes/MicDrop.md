@@ -47,7 +47,7 @@ Interestingly, the density of the network was found to be quite low at 0.0176, s
 What does this tell us about success in this network? Actors seem to thrive by forming connections within their groups while maintaining a breadth of collaborations across the network. The moderately clustered structure suggests that actors benefit from working in groups, perhaps enhancing visibility and mutual support. Yet, success may also come from building diverse connections beyond their immediate circles, showcasing the importance of networking in this industry.<br><br>
 
 These findings provide a fascinating glimpse into the balance between localized and broad collaborations in the world of acting. The network's structure encourages actors to maintain a mix of close-knit teamwork and expansive professional relationships to maximize their opportunities.<br>
-
+<br>
 
 <iframe src="assets/interactive/communities_metrics.html" class="communities_metrics"></iframe>
 <br>
@@ -69,7 +69,7 @@ The smallest communities, such as Communities 9 (13 actors) and 10 (6 actors), o
 Interestingly, as community size decreased, clustering coefficients generally increased, reflecting the natural tendency of smaller groups to form complete or near-complete networks. Drama emerged as the most consistent genre across all communities, though its prominence diminished in smaller clusters, which shifted toward niche genres and localized collaborations. The pervasive influence of the United States across all communities underscores its pivotal role in shaping global actor collaborations.
 
 <br>
-
+<br>
 <b>Centrality Analysis: Unveiling the Key Players</b>
 <br>
 As we analyzed the centralities of nodes in the largest collaboration network, a clear picture began to emerge of the actors who hold the most influence and connectivity within the network. Centrality metrics provide a way to measure an actor's prominence, influence, and strategic position within the collaboration ecosystem.<br><br>
