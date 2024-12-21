@@ -39,10 +39,6 @@ Interestingly, only one top central actor was found in Community 3. This lone ac
 
 These findings underline the importance of collaborative density in achieving success. Actors in Community 1 appear to benefit from their position in a highly interconnected group, which likely provides opportunities for visibility and repeated collaborations. Meanwhile, the presence of central actors in smaller communities points to alternative paths to success, such as serving as a connector or standing out in a niche.<br><br>
 
-
-<iframe src="assets/interactive/community_statistics.html" class="community_statistics"></iframe>
-
-<br><br>
 As we delved into the communities within the largest collaboration network, several interesting patterns emerged. The largest community, Community 1, stood out with 2,233 actors and an average score of 2.64. It was heavily dominated by genres such as drama, comedy, and thriller, with the United States, the United Kingdom, and Germany being the primary countries represented. This community's size and high average score suggest it is a central hub of the global entertainment industry, featuring diverse actors collaborating across numerous genres.<br><br>
 
 Community 2, while smaller at 1,638 actors, displayed similar characteristics, with drama, thriller, and action as its top genres. Its slightly lower average score (2.62) indicates a highly active but marginally less influential network compared to Community 1. The predominance of the United States, the United Kingdom, and Germany reinforces the transatlantic nature of collaborations in this cluster.<br><br>
@@ -62,6 +58,10 @@ Interestingly, the density of the network was found to be quite low at 0.0176, s
 What does this tell us about success in this network? Actors seem to thrive by forming connections within their groups while maintaining a breadth of collaborations across the network. The moderately clustered structure suggests that actors benefit from working in groups, perhaps enhancing visibility and mutual support. Yet, success may also come from building diverse connections beyond their immediate circles, showcasing the importance of networking in this industry.<br><br>
 
 These findings provide a fascinating glimpse into the balance between localized and broad collaborations in the world of acting. The network's structure encourages actors to maintain a mix of close-knit teamwork and expansive professional relationships to maximize their opportunities.<br><br>
+
+<iframe src="assets/interactive/community_statistics.html" class="community_statistics"></iframe>
+
+<br>
 
 Centrality Analysis: Unveiling the Key Players<br><br>
 As we analyzed the centralities of nodes in the largest collaboration network, a clear picture began to emerge of the actors who hold the most influence and connectivity within the network. Centrality metrics provide a way to measure an actor's prominence, influence, and strategic position within the collaboration ecosystem.<br><br>
