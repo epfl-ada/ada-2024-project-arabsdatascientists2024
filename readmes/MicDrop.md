@@ -74,9 +74,13 @@ The top-ranked actor by degree centrality was Samuel L. Jackson, with a centrali
 <b>Closeness Centrality:</b><br>
 When considering closeness centrality, which measures how quickly an actor can connect to others in the network, Samuel L. Jackson once again emerged as the leader, with a value of 0.5157. This indicates that he is well-positioned to reach any actor in the network with minimal steps. Bruce Willis and Steve Buscemi followed closely, reflecting their ability to act as intermediaries. Interestingly, Matt Damon and Willem Dafoe joined the top five here, suggesting that their collaborations span diverse and accessible parts of the network.<br><br>
 
-<b>Betweenness Centrality:</b>
+<b>Betweenness Centrality:</b><br>
 Betweenness centrality provides a measure of how often an actor serves as a bridge between other actors. Unsurprisingly, Samuel L. Jackson led this metric as well, with a value of 0.0144, highlighting his role as a key connector. However, the rankings introduced some new faces, such as Joel Torre and Chris Cooper, who appeared alongside more familiar names like Bruce Willis and Morgan Freeman. This suggests that these actors may play strategic roles in connecting otherwise disconnected parts of the network.<br><br>
 
+
+<iframe src="assets/interactive/communities_metrics.html" class="communities_metrics"></iframe>
+
+<br>
 As we delved deeper into the structure of the individual communities within the largest collaboration network, distinct characteristics began to emerge. Community 1, the largest group with 2,233 actors, showed an average clustering coefficient of 0.2427. This indicates a modest level of interconnectedness among its members. Despite its size, the density was relatively low at 0.0382, suggesting a sparse network. However, the average degree was high at 85.19, reflecting that actors in this community often collaborate with a wide range of co-stars. Samuel L. Jackson emerged as the most central actor, highlighting his influential role in this sprawling collaboration hub.<br><br>
 
 Moving to Community 2, which includes 1,638 actors, the clustering coefficient increased significantly to 0.4533, signaling tighter connections among its members. The density, however, remained lower at 0.0204, while the average degree dropped to 33.47, indicating fewer but more cohesive collaborations. Here, Cate Blanchett was the most central figure, suggesting her pivotal position within this group.<br><br>
