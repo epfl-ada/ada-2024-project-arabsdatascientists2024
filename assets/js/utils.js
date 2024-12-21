@@ -1,8 +1,9 @@
+Lights on, origins, glow up, joining forces, mic drop
 const sections = [
-    { id: "Chapter1", title: "Chapter 1", file: "readmes/Chapter1.md" },
-    { id: "TheBirth", title: "The Birth", file: "readmes/TheBirth.md" },
-    { id: "Physique", title: "Physique", file: "readmes/Physique.md" },
-    { id: "Tips", title: "Tips", file: "readmes/Tips.md" },
+    { id: "Lights on", title: "Chapter 1", file: "readmes/Chapter1.md" },
+    { id: "Origins", title: "The Birth", file: "readmes/TheBirth.md" },
+    { id: "Glow up", title: "Physique", file: "readmes/Physique.md" },
+    { id: "Mic drop", title: "Tips", file: "readmes/Tips.md" },
     { id: "JoiningForces", title: "Joining forces", file: "readmes/JoiningForces.md" },
     { id: "EndWord", title: "End word", file: "readmes/EndWord.md" },
   ];
