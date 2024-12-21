@@ -83,10 +83,11 @@ When considering closeness centrality, which measures how quickly an actor can c
 <b>Betweenness Centrality:</b><br>
 Betweenness centrality provides a measure of how often an actor serves as a bridge between other actors. Unsurprisingly, Samuel L. Jackson led this metric as well, with a value of 0.0144, highlighting his role as a key connector. However, the rankings introduced some new faces, such as Joel Torre and Chris Cooper, who appeared alongside more familiar names like Bruce Willis and Morgan Freeman. This suggests that these actors may play strategic roles in connecting otherwise disconnected parts of the network.<br><br>
 
+
+"Your path," we said with conviction, "lies with them, the most succesful and connected."  We calculated graph metrics like centrality and clustering coefficients, uncovering the actors who were not just participants but leaders of their communities. Among them were the top performers—those with scores greater than 7. We added, "Collaborate wisely, and let their influence sharpen your talent. Sadly, success isn’t just about being seen—it’s about being seen with the right people."<br><br>
+
 <iframe src="assets/interactive/interests.html" class="interactive-interest"></iframe>
 <br><br>
-
-
 
 The world of acting is not just about talent; it’s also about strategy, connections, and choosing the right opportunities. Through our analysis, a clear picture emerged of what it takes to rise to the top in this competitive industry.
 <br>
