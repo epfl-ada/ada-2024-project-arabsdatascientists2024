@@ -44,7 +44,7 @@ We gained an additional insight: successful women tend to be taller than average
 
 *Astra looking at us confused*<br><br>
 
-“ Yes, we know that you don’t have innate knowlege so here is a regression for you to see a bit clearer "
+“ Yes, we know that you don’t have innate knowledge so here is a regression for you to see a bit clearer "
 <br><br>
 
 <img src="assets/media/reg_careerstart.jpg" alt="regcareerstart" class="section-image">
