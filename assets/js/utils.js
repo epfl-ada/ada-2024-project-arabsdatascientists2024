@@ -1,10 +1,10 @@
 const sections = [
-    { id: "Lights on", title: "Chapter 1", file: "readmes/Chapter1.md" },
-    { id: "Origins", title: "The Birth", file: "readmes/TheBirth.md" },
-    { id: "Glow up", title: "Physique", file: "readmes/Physique.md" },
-    { id: "Mic drop", title: "Tips", file: "readmes/Tips.md" },
-    { id: "JoiningForces", title: "Joining forces", file: "readmes/JoiningForces.md" },
-    { id: "NWord", title: "End word", file: "readmes/EndWord.md" },
+    { id: "LightsOn", title: "Lights on", file: "readmes/Chapter1.md" },
+    { id: "Origins", title: "Origins", file: "readmes/TheBirth.md" },
+    { id: "GlowUp", title: "Glow up", file: "readmes/Physique.md" },
+    { id: "MicDrop", title: "Mic drop", file: "readmes/Tips.md" },
+    { id: "JoiningForces", title: "Joining Forces", file: "readmes/JoiningForces.md" },
+    { id: "EndWord", title: "End word", file: "readmes/EndWord.md" },
   ];
   
   const topBarButtons = document.getElementById("top-bar-buttons");
