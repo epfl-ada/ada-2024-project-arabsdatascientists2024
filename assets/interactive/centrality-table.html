@@ -1,0 +1,111 @@
+<style>
+    .interactive-comm-stat {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        margin: 20px 0;
+    }
+    
+    .interactive-comm-stat thead th {
+        background-color: #f4f4f4;
+        color: #333;
+        font-weight: bold;
+        padding: 10px;
+        border-bottom: 2px solid #ddd;
+    }
+    
+    .interactive-comm-stat tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+    .interactive-comm-stat tbody tr:nth-child(odd) {
+        background-color: #fff;
+    }
+    
+    .interactive-comm-stat tbody td,
+    .interactive-comm-stat thead th {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+    
+    .interactive-comm-stat tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+    </style>
+  
+<table class="interactive-comm-stat">
+    <thead>
+        <tr style="text-align: right;">
+            <th>Centrality Type</th>
+            <th>Actor</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="5">Degree Centrality</td>
+            <td>Samuel L. Jackson</td>
+            <td>0.1402</td>
+        </tr>
+        <tr>
+            <td>Bruce Willis</td>
+            <td>0.1174</td>
+        </tr>
+        <tr>
+            <td>Steve Buscemi</td>
+            <td>0.1093</td>
+        </tr>
+        <tr>
+            <td>Christopher Walken</td>
+            <td>0.0949</td>
+        </tr>
+        <tr>
+            <td>Robert De Niro</td>
+            <td>0.0936</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Closeness Centrality</td>
+            <td>Samuel L. Jackson</td>
+            <td>0.5157</td>
+        </tr>
+        <tr>
+            <td>Bruce Willis</td>
+            <td>0.5052</td>
+        </tr>
+        <tr>
+            <td>Steve Buscemi</td>
+            <td>0.4997</td>
+        </tr>
+        <tr>
+            <td>Matt Damon</td>
+            <td>0.4983</td>
+        </tr>
+        <tr>
+            <td>Willem Dafoe</td>
+            <td>0.4982</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Betweenness Centrality</td>
+            <td>Samuel L. Jackson</td>
+            <td>0.0144</td>
+        </tr>
+        <tr>
+            <td>Joel Torre</td>
+            <td>0.0108</td>
+        </tr>
+        <tr>
+            <td>Chris Cooper</td>
+            <td>0.0101</td>
+        </tr>
+        <tr>
+            <td>Bruce Willis</td>
+            <td>0.0077</td>
+        </tr>
+        <tr>
+            <td>Morgan Freeman</td>
+            <td>0.0066</td>
+        </tr>
+    </tbody>
+</table>
