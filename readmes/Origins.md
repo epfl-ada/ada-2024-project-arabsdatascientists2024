@@ -1,33 +1,49 @@
 <br>
 
 
-The first step in Astra’s creation is to determine its origins. Astra surely has no power over its predetermining factors, but we do. <br><br>
+The first step in Astra’s creation is to determine his origins. Astra surely has no power over his predetermining factors, but we do. <br><br>
 
-After an analysis of global cinematic powerhouses, we made our choice. The U.S. stands out with the highest actor scores, reflecting its leading role in the global film industry.<br><br>
+After an analysis of global cinematic powerhouses, we made our choice. The U.S. stands out with the highest actor scores, reflecting its leading role in the global film industry. This is likely due to Hollywood's prominence and the opportunities available for actors to achieve international acclaim.<br><br>
 
-<img src="assets/media/countries.jpg" alt="countries" class="section-image">
+<div style="text-align: center;">
+  <img src="assets/media/countries.jpg" alt="countries" class="intro-countries">
+</div>
+
+<style>
+.intro-countries {
+  max-width: 50%; 
+  height: auto;   
+}
+</style>
 
 <br>
 “Astra,” we said,  “In the U.S., you will be born and that gives you an inherent advantage, as actors from the U.S. statistically achieve the highest scores.”<br><br>
 
 But the U.S. is vast and varied. "We must determine with more specificity your socio-economic background," we continued. <br><br>
 
-Alright Astra, let's see how you are going to grow up. We will try to make your life easy but we can’t promise you anything. We used linear regression, or the math equivalent to “keep it simple”. It assumes life moves in straight lines (a clearly wrong assumption) but come on’... it works.<br><br>
+Alright Astra, let's see how you are going to grow up. We will try to make your life easy but we can’t promise you anything. We used linear regression to determine which factors are the most predominant for your success. <br><br>
 
-*Astra looks bored*<br><br>
+<div style="text-align: center;">
+  <img src="assets/media/backlylia.png" alt="backlylia" class="intro-backlylia">
+</div>
 
-Enough complaining Astra, how about we look at the data! Sorry to tell you that growing up underprivileged may actually add to your charm. We know it’s not ideal but think of Cinderella, she started by mopping the floor and ended up a princess.<br><br>
+<style>
+.intro-backlylia {
+  max-width: 50%; 
+  height: auto;   
+}
+</style>
 
-Okay, okay… For your education we see 2 options for you, we’ll start by the bad news. You’re not gonna like it … but you will need to work hard and study well. Your diploma could be your entrance ticket to this world. Apparently it makes you look smart and classy. Actually, forget the second option. You would have loved it. However it would have a lower impact on your success - don’t cry though … for this one you wouldn’t even be required to go to school.
-For the way you’ll start your career, a silver spoon in the mouth would help you a lot. Linear regression agrees : being born into privilege is like starting a race 100m ahead. You’ll get there faster—but don’t trip! No one likes a sore winner. Yes, we know it’s not going to be easy but wake up, ordinary beginnings? Ordinary results. You would blend into the crowd and that’s not what we want for you bro, so maybe spice up your backstory.<br><br>
+Again, we are looking at the blue dots, representing coefficient values, and red bars indicating confidence intervals.
 
-As we know you’re not the sharpest tool in the shed, we will sum it up for you.<br><br>
+Sorry to tell you that growing up underprivileged may actually add to your charm. We know it’s not ideal but think of Cinderella, she started by mopping the floor and ended up a princess.<br><br>
 
-*Astra side-eyeing us*<br><br>
+Okay, okay… For your education we see 2 options for you. Your diploma could be your entrance ticket to this world. The second option, you would have loved it, you're not even required to go to school, however it would have a lower impact on your success. The confidence intervals crossing zero indicates that its effects is not significant or conclusive.
 
-What did we say again? You know it’s true. Anyway, we were saying, linear regression has spoken, being highly educated and underprivileged works like a charm, making you both credible and relatable. You know your destiny now.<br><br>
+For the way you’ll start your career, linear regression agrees that being born into privilege strongly inscreases your likelihood of success. You’ll get there faster—but don’t trip! No one likes a sore winner. Yes, we know it’s not going to be easy but wake up, ordinary beginnings? Ordinary results.<br><br>
 
-<img src="assets/media/backlylia.png" alt="backlylia" class="section-image">
+What did we say again? You know it’s true. Anyway, we were saying, linear regression has spoken, being highly educated and underprivileged works like a charm, making you both credible and relatable. These features have positive coefficients with confidence intervals that exclude zero, making them statistically significant contributors to the outcome. You know your destiny now.<br><br>
+
 
 Before going any further, we faced a crucial decision: Astra’s gender. <br><br>
 

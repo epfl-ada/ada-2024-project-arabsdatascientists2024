@@ -1,34 +1,55 @@
 <br><br>
-So Astra, the data has spoken, our magic and powerful regression machine has revealed the perfect formula for your Hollywood glow-up. Let’s talk physical attributes, shall we?<br><br>
+So Astra, the data has spoken, and using linear regression we can reveal the perfect formula for your Hollywood glow-up.<br><br>
 
-First off, forget about arched eyebrows—they might scream drama, but the audience says, "Nah, keep it natural." As for your jaw-dropping good looks, bad news: being too attractive could actually hurt your score. Yep, sorry, bro. Guess you’ll have to settle for being an ordinary being.<br><br>
+While being too attractive could actually hurt your score, forget about arched eyebrows too. However, the public seems to have a soft spot for gray hair, which could also simply be related to being a more experienced actor.<br><br>
 
-Now, let’s move to your hair game. Since you’re a mister, you could go for bangs. But come on, who do you think you are? Justin Bieber? Nah, let’s not. However, the public seems to have a soft spot for gray hair as nothing says “classy” like aging like fine wine. Oh, and guess what? Bald is also so hot right now. So, what’s it gonna be, Astra? Are you more of a George Clooney or a Vin Diesel? We’re kidding, you’re just our little doll and we promise you, we’ll make you perfect for the movie industry. Bald it is.<br><br>
+Moving on to your vibe: bags under the eyes, is apparently “in”. So don’t sleep too much, it’s your secret weapon! rosy cheeks and sweats? Not the public’s vibe. And big lips? Also a no-go. <br><br>
 
-Moving on to your vibe: the “I’m a hardworking legend” or “I stayed up all night partying” look, a.k.a. bags under the eyes, is apparently “in”. So don’t sleep too much, it’s your secret weapon! <br><br>
+This graph illustrates the coefficients of significant features in a regression model, with the blue dots representing coefficient values and red bars showing their confidence intervals. Features whose confidence intervals exclude zero (e.g., C(Male)[T.1] and C(Gray_Hair)[T.1]) are statistically significant, indicating a meaningful positive or negative effect on the dependent variable, while those crossing zero (e.g., C(Bags_Under_Eyes)[T.1]) are not significant.<br><br>
 
-Whatever you do, don't you dare lace up your running shoes and go for a marathon before filming a scene. Here's a heads-up: rosy cheeks and sweats? Not the public’s vibe. And big lips? Also a no-go. Maybe they think big lips equal big mouths, and let’s face it, nobody likes a chatterbox. Harsh? Maybe. But HELLO, Astra, we’re building you for stardom, not a chit-chat session.<br><br>
+<div style="text-align: center;">
+  <img src="assets/media/graphlylia.png" alt="graphlylia" class="physique-graphlylia">
+</div>
 
-
-<img src="assets/media/graphlylia.png" alt="graphlylia" class="section-image">
-
+<style>
+.physique-graphlylia {
+  max-width: 50%; 
+  height: auto;   
+}
+</style>
 <br><br>
 
-Oh, wait! We almost forgot to spill the tea, there are some power duos in the physical attribute game that push you straight to the top of the rankings. But shhh... let’s keep it a secret. We wouldn’t want anyone to steal your spotlight.<br><br>
+There are some power duos in the physical attribute game that push you straight to the top of the rankings. We used saturated regression for pairs of features, which involves fitting a model where all possible interactions and combinations between two features are included as parameters. <br><br>
 
-First up, pale skin paired with rosy cheeks: the ultimate clean skin vibe. It’s giving effortless charm. So, remember to give those cheeks a little pinch before you step on set. And how could we not mention the timeless combo of mysterious dark hair and irresistible attractiveness? These traits have been the keys to our hearts since forever.<br><br>
+First up, pale skin paired with rosy cheeks: the ultimate clean skin vibe. And how could we not mention the timeless combo of mysterious dark hair and irresistible attractiveness? Unfortunately, not every combo makes the cut. The “I’m attractive, but my bags under the eyes prove I’m only human” vibe? Turns out it’s not part of the secret success formula. <br><br>
 
-Unfortunately, not every combo makes the cut. The “I’m attractive, but my bags under the eyes prove I’m only human” vibe? Yeah… forget it, turns out it’s not part of the secret success formula. So maybe get a little rest or at least invest in some good concealer.<br><br>
+Features whose intervals exclude zero (e.g., C(Pale_Skin)[T.1]:C(Rosy_Cheeks)[T.1]) are statistically significant, indicating positive or negative effects on the dependent variable, while those crossing zero are not significant.
 
 
-<img src="assets/media/graphlylia2.png" alt="graphlylia2" class="section-image">
+<div style="text-align: center;">
+  <img src="assets/media/graphlylia2.png" alt="graphlylia2" class="physique-graphlylia2">
+</div>
 
+<style>
+.physique-graphlylia2 {
+  max-width: 50%; 
+  height: auto;   
+}
+</style>
 <br><br>
 
 Further analysis revealed another critical factor: height. The boxplot below highlighting the height distribution by KMeans clusters and gender: <br><br>
 
-<img src="assets/media/genderandheights.png" alt="genderandheights" class="section-image">
+<div style="text-align: center;">
+  <img src="assets/media/genderandheights.png" alt="genderandheights" class="physique-genderandheights">
+</div>
 
+<style>
+.physique-genderandheights {
+  max-width: 50%; 
+  height: auto;   
+}
+</style>
 <br><br>
 
 We started by clustering our data according to all the features we have. Since our data is cathegorical, we used hot encoding in order to use K-means model which is more adapted in our case, and according to our data - that had levels for example for education or priviledge. 
@@ -44,11 +65,19 @@ We gained an additional insight: successful women tend to be taller than average
 
 *Astra looking at us confused*<br><br>
 
-“ Yes, we know that you don’t have innate knowledge so here is a regression for you to see a bit clearer "
+“ Here is a regression for you to see a bit clearer "
 <br><br>
 
-<img src="assets/media/reg_careerstart.jpg" alt="regcareerstart" class="section-image">
+<div style="text-align: center;">
+  <img src="assets/media/reg_careerstart.jpg" alt="regcareerstart" class="physique-regcareerstart">
+</div>
 
+<style>
+.physique-regcareerstart {
+  max-width: 50%; 
+  height: auto;   
+}
+</style>
 <br><br>
 
 *Astra still looking confused* <br><br>
