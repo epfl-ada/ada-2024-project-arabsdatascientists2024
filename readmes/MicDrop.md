@@ -22,10 +22,16 @@ Last but not least… ROMANCE, our personal favorite. Let’s not forget that �
 
 <img src="assets/media/graphnetwork.jpg" alt="graphnetwork" class="section-image">
 
-<br><br>
+
+<br>
 
 
-Upon examining the distribution of top central actors within the largest community, we discovered an intriguing pattern. Out of the 10 most central actors, six belonged to Community 1, making it the dominant cluster in terms of collaborative influence. This suggests that Community 1 functions as the primary hub for actor collaborations, where frequent interactions and strong connections drive collective success.<br><br>
+<iframe src="assets/interactive/centrality-degree.html" class="interactive-centrality"></iframe>
+
+<br>
+
+
+Upon examining the distribution of top central actors within the network, we discovered an intriguing pattern. Out of the 10 most central actors, six belonged to Community 1, making it the dominant cluster in terms of collaborative influence. This suggests that Community 1 functions as the primary hub for actor collaborations, where frequent interactions and strong connections drive collective success.<br><br>
 
 Community 2 followed, with three top central actors. While smaller than Community 1, this group still holds significant collaborative power, indicating that it is another important cluster contributing to the overall network's success. Its presence highlights that influential collaborations are not entirely concentrated in a single group but are distributed across multiple clusters.<br><br>
 
@@ -33,6 +39,10 @@ Interestingly, only one top central actor was found in Community 3. This lone ac
 
 These findings underline the importance of collaborative density in achieving success. Actors in Community 1 appear to benefit from their position in a highly interconnected group, which likely provides opportunities for visibility and repeated collaborations. Meanwhile, the presence of central actors in smaller communities points to alternative paths to success, such as serving as a connector or standing out in a niche.<br><br>
 
+
+<iframe src="assets/interactive/community_statistics.html" class="community_statistics"></iframe>
+
+<br><br>
 As we delved into the communities within the largest collaboration network, several interesting patterns emerged. The largest community, Community 1, stood out with 2,233 actors and an average score of 2.64. It was heavily dominated by genres such as drama, comedy, and thriller, with the United States, the United Kingdom, and Germany being the primary countries represented. This community's size and high average score suggest it is a central hub of the global entertainment industry, featuring diverse actors collaborating across numerous genres.<br><br>
 
 Community 2, while smaller at 1,638 actors, displayed similar characteristics, with drama, thriller, and action as its top genres. Its slightly lower average score (2.62) indicates a highly active but marginally less influential network compared to Community 1. The predominance of the United States, the United Kingdom, and Germany reinforces the transatlantic nature of collaborations in this cluster.<br><br>
@@ -42,9 +52,6 @@ As we moved to smaller communities, the patterns shifted. For instance, Communit
 The smallest communities, such as Communities 16 and 17, contained just two or three actors each and had average scores below 1.6. These clusters represented niche genres like stop motion, animated musical, or biography, often tied to specific production regions such as Japan or South Korea. Their lower scores and small sizes suggest that these actors operate in specialized or localized networks with limited global reach.<br><br>
 
 Interestingly, while drama was the most consistent genre across all communities, its presence diminished in smaller clusters, which began to reflect more niche genres and focused collaborations. Additionally, the dominance of the United States as a primary country across all communities indicates its pivotal role in shaping global actor collaborations.<br><br>
-
-
-<iframe src="assets/interactive/community_statistics.html" class="community_statistics"></iframe>
 
 <br><br>
 

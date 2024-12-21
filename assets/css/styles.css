@@ -161,6 +161,13 @@ body {
   margin: 0 25%;
 }
 
+.interactive-centrality{
+  border: none;
+  width: 50%;
+  height: 40rem;
+  margin: 0 25%;
+}
+
 /* ====================== TEMPLATES ====================== */
 .table-plot-text{
   width: 100%; /* Make the table take full width */
