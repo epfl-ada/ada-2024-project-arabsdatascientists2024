@@ -10,7 +10,7 @@ Let us introduce you to Astra. Astra was unique—not because of any physical tr
 
 One day, our team of brilliant data scientists came up with an extraordinary mission. "Astra," we said, "you are unlike anyone else. You have no features, no history, no identity—and yet, you are destined for greatness. We will build you from scratch to become the next super actor, the greatest of all time."<br><br>
 
-*Astra tilted his blank head, curious but silent.* <br><br>
+*Astra tilted its blank head, curious but silent.* <br><br>
 
 "You see, Astra, you will show the world the power of data. We have gathered all the data necessary to shape you. By analyzing it, we will craft you into a legend."<br><br>
 
@@ -26,6 +26,6 @@ Using ratings as our guide, we used PCA to analyze the underlying structure of m
 
 According to our success score, here are the top 50 actors, which is not bad !  <br><br>
 
-This metric would ensure that every decision in Astra’s creation would drive him closer to excellence.<br><br>
+This metric would ensure that every decision in Astra’s creation would drive it closer to excellence.<br><br>
 
 

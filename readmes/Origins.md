@@ -1,9 +1,9 @@
 <br>
 
 
-The first step in Astra’s creation is to determine his origins. Astra surely has no power over his predetermining factors, but we do. <br><br>
+The first step in Astra’s creation is to determine its origins. Astra surely has no power over its predetermining factors, but we do. <br><br>
 
-After an analysis of global cinematic powerhouses, we made our choice. The U.S. stands out with the highest actor scores, reflecting its leading role in the global film industry. This is likely due to Hollywood's prominence and the opportunities available for actors to achieve international acclaim.<br><br>
+After an analysis of global cinematic powerhouses, we made our choice. The U.S. stands out with the highest actor scores, reflecting its leading role in the global film industry.<br><br>
 
 <img src="assets/media/countries.jpg" alt="countries" class="section-image">
 
@@ -12,7 +12,7 @@ After an analysis of global cinematic powerhouses, we made our choice. The U.S. 
 
 But the U.S. is vast and varied. "We must determine with more specificity your socio-economic background," we continued. <br><br>
 
-Alright Astra, let's see how you are going to grow up. We will try to make your life easy but we can’t promise you anything. We used linear regression, or the math equivalent to “keep it simple”. It assumes life moves in straight lines (clearly wrong assumption) but come on’... it works.<br><br>
+Alright Astra, let's see how you are going to grow up. We will try to make your life easy but we can’t promise you anything. We used linear regression, or the math equivalent to “keep it simple”. It assumes life moves in straight lines (a clearly wrong assumption) but come on’... it works.<br><br>
 
 *Astra looks bored*<br><br>
 
